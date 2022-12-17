@@ -1,10 +1,5 @@
-# Today I Learned
-
-http://milooy.github.io/TIL/
-
-![til](https://user-images.githubusercontent.com/3839771/88662649-37dd7480-d115-11ea-8e26-a56669cbfe83.gif)
-
-@milooy 가 오늘 새로 배운 것을 다음의 규칙으로 commit 합니다. [thoughtbot til 참고](https://github.com/thoughtbot/til)
+# Today HyunSang Learned
+[`milooy/TIL`](https://github.com/milooy/TIL)테마를 사용하고 있습니다.
 
 ## 로컬에서 띄우기
 ```bash
