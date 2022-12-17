@@ -18,6 +18,10 @@ module.exports = {
         children: CONST.References
       },
       {
+        title: "Errors",
+        children: CONST.Errors
+      },
+      {
         title: 'Books',
         children: CONST.BooksList
       },
