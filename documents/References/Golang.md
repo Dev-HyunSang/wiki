@@ -9,5 +9,6 @@
 - [Go와 함께하는 전화망 서비스 구축 1편](https://d2.naver.com/helloworld/5827706)
 - [Go와 함께하는 전화망 서비스 구축 2편](https://d2.naver.com/helloworld/0814313)
 
-## Data
+## Data & Data Structures
 - [Data Race Patterns in Go](https://www.uber.com/blog/data-race-patterns-in-go/)
+- [emirpasic/gods](https://github.com/emirpasic/gods)
