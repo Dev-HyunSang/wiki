@@ -14,6 +14,10 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
+        title: "Golang",
+        children: CONST.Golang
+      },
+      {
         title: "References",
         children: CONST.References
       },
@@ -25,6 +29,10 @@ module.exports = {
         title: 'Books',
         children: CONST.BooksList
       },
+      {
+        title: "Daily Log",
+        children: CONST.Daily_Log
+      }
     ],
     nav: [{
         text: 'GitHub',
