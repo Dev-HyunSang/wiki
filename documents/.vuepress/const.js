@@ -1,10 +1,12 @@
 exports.Golang = [
-  "Golang/20221218-변수와-자료형에-대해"
+  "Golang/20221217-변수와-자료형에-대해",
+  "Golang/20221219-자료-구조"
 ]
 
 exports.References = [
   "References/Golang",
-  "References/Rust"
+  "References/Rust",
+  "References/ETC"
 ]
 
 
@@ -20,4 +22,8 @@ exports.BooksList = [
 
 exports.Daily_Log = [
   "Daily_Log/2022-12"
+]
+
+exports.MonthlyILearned = [
+  "Monthly-I-Learned/2022-12"
 ]

@@ -16,6 +16,7 @@
 </template>
 <style>
   blockquote {
-    border-left: 3px solid skyblue;
+    border-left: 3px solid #3eaf7c;
+    padding-left: 10px;
   }
 </style>

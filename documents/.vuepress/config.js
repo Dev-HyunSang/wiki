@@ -14,6 +14,10 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
+        title: "Monthly I Learned",
+        children: CONST.MonthlyILearned
+      },
+      {
         title: "Golang",
         children: CONST.Golang
       },
