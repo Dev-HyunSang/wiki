@@ -21,9 +21,18 @@
 ## gRPC
 - [프로덕션 환경에서 사용하는 golang과 gRPC](https://blog.banksalad.com/tech/production-ready-grpc-in-golang/)
 
-
 ## Code Style
 - [Google - Go Style](https://google.github.io/styleguide/go/)
   - [Google - Go Style Guide](https://google.github.io/styleguide/go/guide)
 - [Uber Go Style Guide](https://github.com/uber-go/guide)
   - [Uuber Go style Guide KR](https://github.com/TangoEnSkai/uber-go-style-guide-kr)
+
+## Logging(Logger)
+- [Logging in Go with slog](https://thedevelopercafe.com/articles/logging-in-go-with-slog-a7bb489755c2)
+
+## Package
+### Entgo
+- [Official Site](https://entgo.io/) / [ent - Go Packages](https://pkg.go.dev/entgo.io/ent)
+- [[Go] Ent 사용해보기](https://velog.io/@leeeeeoy/Go-Ent-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
+- [[Lib] entgo 1 - Go의 ORM 라이브러리](https://www.vompressor.com/entgo1/)
+- [Golang으로 백엔드 개발하기 - 1. 데이터베이스 작업하기 (Ent 프레임워크 이용)](https://umi0410.github.io/blog/golang/how-to-backend-in-go-db/)
