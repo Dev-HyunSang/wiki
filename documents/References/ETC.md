@@ -28,3 +28,4 @@
 - [개발자들이 문서화를 하는 이유는 뭘까? 왜 하는거지?](https://happy-coding-day.tistory.com/entry/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%B4-%EB%AC%B8%EC%84%9C%ED%99%94%EB%A5%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AD%98%EA%B9%8C-%EC%99%9C-%ED%95%98%EB%8A%94%EA%B1%B0%EC%A7%80)
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 1부](https://brunch.co.kr/@funidea/8)
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 2부](https://brunch.co.kr/@funidea/9)
+- [API 문서 톺아보기](https://tech.kakaoenterprise.com/127)
