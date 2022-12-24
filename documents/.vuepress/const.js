@@ -11,7 +11,8 @@ exports.References = [
 
 
 exports.Errors = [
-  "Errors/GitHub"
+  "Errors/GitHub",
+  "Errors/Golang"
 ]
 
 exports.BooksList = [

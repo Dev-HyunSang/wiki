@@ -1,5 +1,12 @@
 # ETC
 
+## Back-End
+### Auth
+- [REST API 보안 및 인증 방식](https://dongwooklee96.github.io/post/2021/03/28/rest-api-%EB%B3%B4%EC%95%88-%EB%B0%8F-%EC%9D%B8%EC%A6%9D-%EB%B0%A9%EC%8B%9D.html)
+- [REST API의 이해와 설계-#3 API 보안](https://bcho.tistory.com/955)
+- [REST API 보안_1](https://cornswrold.tistory.com/289)
+- [REST API 보안_인증(Authentication)](https://cornswrold.tistory.com/290)
+
 ## AI
 ### OpenGPT 
 - [Exclusive: ChatGPT owner OpenAI projects $1 billion in revenue by 2024](https://www.reuters.com/business/chatgpt-owner-openai-projects-1-billion-revenue-by-2024-sources-2022-12-15/)
