@@ -12,6 +12,9 @@
 - [Exclusive: ChatGPT owner OpenAI projects $1 billion in revenue by 2024](https://www.reuters.com/business/chatgpt-owner-openai-projects-1-billion-revenue-by-2024-sources-2022-12-15/)
   - > Three sources briefed on OpenAI's recent pitch to investors said the organization expects $200 million in revenue next year and $1 billion by 2024.
 
+## Programing Language Performance Benchmarking
+- [Golang vs Rust 퍼포먼스 벤치마킹 썰](https://blog.stibee.com/golang-vs-rust-%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9-%EC%8D%B0-bac94bc26e2e)
+
 ## 커리어
 - [개발자로 살아남기, 몰로코 박종천 헤드 오브 솔루션스 아키텍처](https://blog.goorm.io/jcpark/)
 - [개발자로서의 커리어에 관한 생각 (feat. 나의 발자취)](https://devowen.com/381)
