@@ -22,10 +22,6 @@ module.exports = {
         children: CONST.Golang
       },
       {
-        title: "ETC",
-        children: CONST.ETC
-      },
-      {
         title: "References",
         children: CONST.References
       },

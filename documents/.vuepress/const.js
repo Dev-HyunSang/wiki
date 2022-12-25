@@ -4,10 +4,6 @@ exports.Golang = [
   "Golang/20221225-고루틴과-채널"
 ]
 
-exports.ETC = [
-  "ETC/20221224-What-is-the-Redis?"
-]
-
 exports.References = [
   "References/Golang",
   "References/Rust",
