@@ -1,6 +1,11 @@
 exports.Golang = [
   "Golang/20221217-변수와-자료형에-대해",
-  "Golang/20221219-자료-구조"
+  "Golang/20221219-자료-구조",
+  "Golang/20221225-채널-Channel"
+]
+
+exports.ETC = [
+  "ETC/20221224-What-is-the-Redis?"
 ]
 
 exports.References = [
