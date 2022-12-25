@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>20221225-고루틴(goroutine)과 채널(Channel)이란? | Today HyunSang Learned</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/TIL/logo.png">
+    <meta name="description" content="HyunSang&#39;s Today I Learned">
+    
+    <link rel="preload" href="/TIL/assets/css/0.styles.7d123bf4.css" as="style"><link rel="preload" href="/TIL/assets/js/app.f9db8140.js" as="script"><link rel="preload" href="/TIL/assets/js/2.96d6f702.js" as="script"><link rel="preload" href="/TIL/assets/js/16.bac98dbf.js" as="script"><link rel="prefetch" href="/TIL/assets/js/10.bb2d845e.js"><link rel="prefetch" href="/TIL/assets/js/11.4fd1f295.js"><link rel="prefetch" href="/TIL/assets/js/12.f00f442b.js"><link rel="prefetch" href="/TIL/assets/js/13.a4bc002e.js"><link rel="prefetch" href="/TIL/assets/js/14.d63b5890.js"><link rel="prefetch" href="/TIL/assets/js/15.46ce0c0a.js"><link rel="prefetch" href="/TIL/assets/js/17.ef711a52.js"><link rel="prefetch" href="/TIL/assets/js/18.57b516c9.js"><link rel="prefetch" href="/TIL/assets/js/19.00059c57.js"><link rel="prefetch" href="/TIL/assets/js/20.972bcbd2.js"><link rel="prefetch" href="/TIL/assets/js/21.d6ea6f6d.js"><link rel="prefetch" href="/TIL/assets/js/3.467f1942.js"><link rel="prefetch" href="/TIL/assets/js/4.9bf31385.js"><link rel="prefetch" href="/TIL/assets/js/5.5c6870fd.js"><link rel="prefetch" href="/TIL/assets/js/6.f3b1d5bc.js"><link rel="prefetch" href="/TIL/assets/js/7.fc859702.js"><link rel="prefetch" href="/TIL/assets/js/8.469204cf.js"><link rel="prefetch" href="/TIL/assets/js/9.e214cecd.js">
+    <link rel="stylesheet" href="/TIL/assets/css/0.styles.7d123bf4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/TIL/" class="home-link router-link-active"><!----> <span class="site-name">Today HyunSang Learned</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/Dev-HyunSang/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://hyunsang.dev/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/Dev-HyunSang/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://hyunsang.dev/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Monthly I Learned</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Golang</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/TIL/Golang/20221217-변수와-자료형에-대해.html" class="sidebar-link">20221217 - 변수와 자료형에 대해</a></li><li><a href="/TIL/Golang/20221219-자료-구조.html" class="sidebar-link">20221219 - 자료 구조</a></li><li><a href="/TIL/Golang/20221225-고루틴과-채널.html" class="active sidebar-link">20221225-고루틴(goroutine)과 채널(Channel)이란?</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/TIL/Golang/20221225-고루틴과-채널.html#고루틴-goroutine-이란" class="sidebar-link">고루틴(goroutine)이란?</a></li><li class="sidebar-sub-header"><a href="/TIL/Golang/20221225-고루틴과-채널.html#채널-channel-이란" class="sidebar-link">채널(Channel)이란?</a></li><li class="sidebar-sub-header"><a href="/TIL/Golang/20221225-고루틴과-채널.html#참고한-자료" class="sidebar-link">참고한 자료</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>References</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Errors</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Books</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Daily Log</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_20221225-고루틴-goroutine-과-채널-channel-이란"><a href="#_20221225-고루틴-goroutine-과-채널-channel-이란" class="header-anchor">#</a> 20221225-고루틴(goroutine)과 채널(Channel)이란?</h1> <p><a href="https://yoongrammer.tistory.com/9" target="_blank" rel="noopener noreferrer">고루틴(goroutine) 이란?<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, <a href="https://yoongrammer.tistory.com/10" target="_blank" rel="noopener noreferrer">[Go] 채널(Channel) 이란?<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>를 보고 작성하였습니다.</p> <h2 id="고루틴-goroutine-이란"><a href="#고루틴-goroutine-이란" class="header-anchor">#</a> 고루틴(goroutine)이란?</h2> <p>고루틴(goroutine)이란, 프로그램에 있는 다른 고루틴과 관련하여 독립적으로 동시에 실행되는 함수입니다.<br> <strong>즉, Go언어로 동시에 실행되는 모든 활동을 고루틴이라고 합니다.</strong></p> <p>고루틴을 만드는 비용은 스레드에 비해 매우 적기 때문에 <strong>경량 스레드</strong>라고 합니다.<br>
+모든 프로그램은 적어도 하나의 <code>main</code>함수라고 고루틴을 포함하고 고루틴은 항상 백그라운드에서 작동합니다.</p> <p>메인 함수가 종료되면 모든 고루틴은 종료되며, 따라서 고루틴보다 <code>main</code>함수가 먼저 종료되는 것을 방지해야 합니다.</p> <h3 id="고루틴을-어떻게-사용하는가"><a href="#고루틴을-어떻게-사용하는가" class="header-anchor">#</a> 고루틴을 어떻게 사용하는가</h3> <p>Go언어에서는 단일 프로그램에서 여러 고루틴을 만들 수 있습니다. 고루틴은 prefix로 <code>go</code> 키워드를 사용해 간단히 만들 수 있는데 일반 함수와 익명 함수로 만들 수 있습니다.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;fmt&quot;</span>
+
+<span class="token keyword">func</span> <span class="token function">display</span><span class="token punctuation">(</span>str <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">displayMain</span><span class="token punctuation">(</span>str <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">go</span> <span class="token function">display</span><span class="token punctuation">(</span><span class="token string">&quot;Welcome&quot;</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">go</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+            fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;to&quot;</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">displayMain</span><span class="token punctuation">(</span><span class="token string">&quot;HyunSang Park&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>OutPut:</strong></p> <div class="language- extra-class"><pre class="language-text"><code>HyunSang Park
+HyunSang Park
+HyunSang Park
+</code></pre></div><p>출력 결과를 보면 고루틴 결과가 제대로 출력되지 않은 것을 볼 수 있습니다.<br> <strong>이유는 고루틴보다 메인 함수가 종료되었기 때문입니다.</strong></p> <p><code>sleep</code>을 이용해서 해결해 보도록 하겠습니다.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+    <span class="token string">&quot;fmt&quot;</span>
+    <span class="token string">&quot;time&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">display</span><span class="token punctuation">(</span>str <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+        time<span class="token punctuation">.</span><span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token number">50</span> <span class="token operator">*</span> time<span class="token punctuation">.</span>Millisecond<span class="token punctuation">)</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">displayMain</span><span class="token punctuation">(</span>str <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+        time<span class="token punctuation">.</span><span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token number">70</span> <span class="token operator">*</span> time<span class="token punctuation">.</span>Millisecond<span class="token punctuation">)</span>
+        fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">go</span> <span class="token function">display</span><span class="token punctuation">(</span><span class="token string">&quot;welcome&quot;</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">go</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+            time<span class="token punctuation">.</span><span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token number">60</span> <span class="token operator">*</span> time<span class="token punctuation">.</span>Millisecond<span class="token punctuation">)</span>
+            fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;to&quot;</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">displayMain</span><span class="token punctuation">(</span><span class="token string">&quot;HyunSang Park&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>Output:</strong></p> <div class="language- extra-class"><pre class="language-text"><code>welcome
+to
+HyunSang Park
+welcome
+to
+HyunSang Park
+welcome
+to
+HyunSang Park
+</code></pre></div><p>순서대로 올바르게 출력되는 것을 확인할 수 있습니다.<br>
+고루틴은 동시에 수행되기에 동기화가 중요합니다.</p> <h2 id="채널-channel-이란"><a href="#채널-channel-이란" class="header-anchor">#</a> 채널(Channel)이란?</h2> <p>Go언어에서 채널(Channel)은 고루틴을 연결해주는 통로(파이프)입니다.
+기본적으로 채널은 양뱡향이며, 고루틴이 아래 이미지와 같이 동일한 채널을 통해 데이터를 보내거나 받을 수 있습니다.</p> <p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcQjdzc%2FbtqMvKcAmg4%2FMFsV4bukDQPRNHAtQ6XsSK%2Fimg.png" alt=""></p> <h3 id="채널-생성"><a href="#채널-생성" class="header-anchor">#</a> 채널 생성</h3> <p>채널은 <code>chan</code> 키워드를 사용하여 만들 수 있고 동일한 유형의 데이터만 전송할 수 있습니다.<br>
+아래와 같이 <code>make()</code> 함수를 사용하여 채널을 만들 수 있습니다.</p> <div class="language-go extra-class"><pre class="language-go"><code>channel <span class="token operator">:=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">chan</span> Type<span class="token punctuation">)</span>
+</code></pre></div><h3 id="채널-송수신"><a href="#채널-송수신" class="header-anchor">#</a> 채널 송수신</h3> <p><code>&lt;-</code>연산자의 방향은 데이터 수신 또는 송신 여부를 나타냅니다.</p> <p><strong>&lt;데이터 송신&gt;</strong></p> <div class="language- extra-class"><pre class="language-text"><code>channel &lt;- data
+</code></pre></div><p><strong>&lt;데이터 수신&gt;</strong></p> <div class="language- extra-class"><pre class="language-text"><code>data := &lt;-channel
+</code></pre></div><p>아래와 같이 수신될 변수가 없어도 유효합니다.</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;-channel
+</code></pre></div><h3 id="채널-닫기"><a href="#채널-닫기" class="header-anchor">#</a> 채널 닫기</h3> <p><code>close()</code> 함수를 이용해서 채널을 닫을 수 있습니다. 채널을 닫게 되면, 해당 채널로는 더 이상 송신을 할 수 없지만, 채널에 데이터가 있는 한 수신은 가능합니다.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token function">close</span><span class="token punctuation">(</span>channel<span class="token punctuation">)</span>
+</code></pre></div><p>아래 구문을 사용해서 채널이 열려 있는지 닫혀 있는지 확인할 수 있습니다.</p> <div class="language-go extra-class"><pre class="language-go"><code>data<span class="token punctuation">,</span> ok <span class="token operator">:=</span> <span class="token operator">&lt;-</span>channel
+</code></pre></div><p>여기서 ok값이 <code>true</code>이면 채널이 열려있다는 의미이고 <code>false</code>면 닫혀 있다는 의미입니다.</p> <p>또한 <code>for range</code>문을 사용해서 채널이 닫힐 때까지 데이터를 수신할 수 있습니다.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">for</span> item <span class="token operator">:=</span> <span class="token keyword">range</span> channel <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>채널이 열려 있다면 range는 채널에 값이 들어올 때까지 대기를 하게 됩니다.<br>
+채널이 닫히면 range 루프가 종료됩니다.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;fmt&quot;</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 채널 생성</span>
+  channel <span class="token operator">:=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">chan</span> <span class="token builtin">string</span><span class="token punctuation">)</span>
+  
+  <span class="token keyword">go</span> <span class="token keyword">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+    <span class="token comment">// 값 전달</span>
+    channel <span class="token operator">&lt;-</span> <span class="token string">&quot;welcome&quot;</span>
+    channel <span class="token operator">&lt;-</span> <span class="token string">&quot;to&quot;</span>
+    channel <span class="token operator">&lt;-</span> <span class="token string">&quot;HyunSang Park&quot;</span> 
+    
+    <span class="token comment">// 채널 닫음</span>
+    <span class="token function">close</span><span class="token punctuation">(</span>channel<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span> <span class="token punctuation">(</span><span class="token punctuation">)</span>
+  
+  <span class="token comment">// 값 수신</span>
+  <span class="token keyword">for</span> msg <span class="token operator">:=</span> <span class="token keyword">range</span> channel <span class="token punctuation">{</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>Output:</strong></p> <div class="language- extra-class"><pre class="language-text"><code>welcome
+to
+HyunSang Park
+</code></pre></div><h2 id="참고한-자료"><a href="#참고한-자료" class="header-anchor">#</a> 참고한 자료</h2> <ul><li><a href="https://yoongrammer.tistory.com/9" target="_blank" rel="noopener noreferrer">고루틴(goroutine) 이란?<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://yoongrammer.tistory.com/10" target="_blank" rel="noopener noreferrer">[Go] 채널(Channel) 이란?<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <hr> <p style="text-align:right;color:gray;">
+2022.12.25 작성하였음.
+</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/TIL/Golang/20221219-자료-구조.html" class="prev">
+        20221219 - 자료 구조
+      </a></span> <span class="next"><a href="/TIL/References/Golang.html">
+        Golang
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/TIL/assets/js/app.f9db8140.js" defer></script><script src="/TIL/assets/js/2.96d6f702.js" defer></script><script src="/TIL/assets/js/16.bac98dbf.js" defer></script>
+  </body>
+</html>
