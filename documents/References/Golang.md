@@ -37,7 +37,7 @@
 
 ## ORM(Object Relational Mapping)
 ### Entgo
-- [Official Site](https://entgo.io/) / [ent - Go Packages](https://pkg.go.dev/entgo.io/ent)
+- [**Official Site**](https://entgo.io/) / [**ent - Go Packages**](https://pkg.go.dev/entgo.io/ent)
 - [[Go] Ent 사용해보기](https://velog.io/@leeeeeoy/Go-Ent-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
 - [[Lib] entgo 1 - Go의 ORM 라이브러리](https://www.vompressor.com/entgo1/)
 - [Golang으로 백엔드 개발하기 - 1. 데이터베이스 작업하기 (Ent 프레임워크 이용)](https://umi0410.github.io/blog/golang/how-to-backend-in-go-db/)
@@ -50,3 +50,6 @@
 ### Redis
 - [`go-redis/redis`](https://github.com/go-redis/redis)
 - [`gomodule/redigo`](https://github.com/gomodule/redigo)
+
+### Shell Script
+- [`bitfield/script`](https://github.com/bitfield/script)

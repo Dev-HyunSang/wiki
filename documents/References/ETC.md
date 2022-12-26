@@ -39,3 +39,7 @@
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 1부](https://brunch.co.kr/@funidea/8)
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 2부](https://brunch.co.kr/@funidea/9)
 - [API 문서 톺아보기](https://tech.kakaoenterprise.com/127)
+
+## 엔지니어링(개발) 기술 동향
+- [Tech predictions for 2023 and beyond](https://www.allthingsdistributed.com/2022/12/tech-predictions-for-2023-and-beyond.html)
+  - [아마존 CTO의 2023년 이후 기술 예측](https://news.hada.io/topic?id=8066&utm_source=weekly&utm_medium=email&utm_campaign=202252)
