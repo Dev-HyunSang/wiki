@@ -22,6 +22,7 @@
 - ["프로그래밍 or 매니지먼트...개발자 커리어 회사가 함께 고민해야"](https://zdnet.co.kr/view/?no=20220822100130)
 - [LINE 서버 개발자가 되기까지 내가 준비한 것들](https://engineering.linecorp.com/ko/blog/things-i-prepared-to-be-a-line-server-developer/)
 - [[나눔글] 개발자 커리어패스에 대해서](https://okky.kr/articles/828141)
+- [CTO의 업무, 이직 후 적응기](https://brunch.co.kr/@chickenmoim/28)
 
 ## 엔지니어링(개발) 문화
 - [좋은 개발 문화란?](https://www.brainbackdoor.com/retrospective/dev-culture)
@@ -43,3 +44,6 @@
 ## 엔지니어링(개발) 기술 동향
 - [Tech predictions for 2023 and beyond](https://www.allthingsdistributed.com/2022/12/tech-predictions-for-2023-and-beyond.html)
   - [아마존 CTO의 2023년 이후 기술 예측](https://news.hada.io/topic?id=8066&utm_source=weekly&utm_medium=email&utm_campaign=202252)
+
+## 코드 관련
+- [코드 복잡도 줄이기 (Cyclomatic Complexity, NPath Complexity)](https://www.popit.kr/%EC%BD%94%EB%93%9C-%EB%B3%B5%EC%9E%A1%EB%8F%84-%EC%A4%84%EC%9D%B4%EA%B8%B0-cyclomatic-complexity-npath-complexity/)
