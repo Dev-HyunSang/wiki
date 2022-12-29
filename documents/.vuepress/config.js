@@ -34,6 +34,10 @@ module.exports = {
         children: CONST.BooksList
       },
       {
+        title: "Photos",
+        children: CONST.Photos
+      },
+      {
         title: "Daily Log",
         children: CONST.Daily_Log
       }

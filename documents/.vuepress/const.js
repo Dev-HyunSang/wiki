@@ -30,3 +30,7 @@ exports.Daily_Log = [
 exports.MonthlyILearned = [
   "Monthly-I-Learned/2022-12"
 ]
+
+exports.Photos = [
+  "Photos/photos"
+]
