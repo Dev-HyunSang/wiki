@@ -56,4 +56,8 @@ type Resoponse struct {
 ```
 위와 같은 방식으로 응답 구조를 사용하고자 합니다. `MetaData{}` 구조체 값들은 임의로 일부분 추가하였습니다.  
 
+---
 
+<p style="text-align: right; color: gray;">
+2022.12.26 작성하였음.
+</p>

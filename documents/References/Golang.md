@@ -12,6 +12,11 @@
 ## Back-End
 - [Response Body의 안전하게 다루는 방법](https://docs.google.com/document/d/e/2PACX-1vQEZL43nmQIF3J8F6L3wkFItXLYHEe5tpstnCNMhJEfEEd6TUjEPnthss4YPjzxIHcuxkYyrro9jXV0/pub)
 
+### JSON Web Token(+Redis)
+- [GO 언어로 JWT 인증서버 만들기](https://covenant.tistory.com/203)
+- [#3 Golang JWT 토큰으로 인증 구현하기](https://bourbonkk.tistory.com/60)
+- [[golang] JWT 인증 구현 (feat. 유저등록기능, 로그인기능)](https://jeong-dev-blog.tistory.com/2)
+
 ## Go언어를 이용한 개발 회고
 - [Go와 함께하는 전화망 서비스 구축 1편](https://d2.naver.com/helloworld/5827706)
 - [Go와 함께하는 전화망 서비스 구축 2편](https://d2.naver.com/helloworld/0814313)

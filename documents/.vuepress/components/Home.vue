@@ -8,12 +8,13 @@
     </ul>
     <h2>2023년 목표</h2>
     <ul>
-      <li>최소 국내 2곳, 해외 1곳 이상 여행하기(서울 제외)</li>
+      <li><input type="checkbox" disabled />최소 국내 2곳, 해외 1곳 이상 여행하기(서울 제외)</li>
       <li>gRPC, Kubernetes 공부하기</li>
-      <li>인문학 관련 서적 5권 이상 읽기</li>
-      <li>프리드리히 니체의 '차라투스트라는 이렇게 말했다' 완독하기</li>
-      <li>다양한 분들과 다양한 곳에서 커피챗 50명 채우기(오프라인, 온라인)</li>
-      <li>오프라인 혹은 온라인에서 Go언어 관련 발표하기</li>
+        <li class="li-item-tap"><input type="checkbox" disabled />gRPC 관련 서적 혹은 강의 2개 이상 읽고 보기</li>
+      <li><input type="checkbox" disabled /> 인문학 관련 서적 5권 이상 읽기</li>
+      <li><input type="checkbox" disabled />프리드리히 니체의 '차라투스트라는 이렇게 말했다' 완독하기</li>
+      <li><input type="checkbox" disabled />다양한 분들과 다양한 곳에서 커피챗 50명 채우기(오프라인, 온라인)</li>
+      <li><input type="checkbox" disabled />오프라인 혹은 온라인에서 Go언어 관련 발표하기</li>
     </ul>
     <blockquote>
       <b>”모든 것의 시작은 위험하다. 그러나 무엇을 막론하고,<br/>
@@ -48,5 +49,10 @@
   .li-item-none {
     list-style: none;
     padding-bottom: 0.1rem;
+  }
+  .li-item-tap {
+    /* padding-left: 1rem; */
+    list-style-position: inside;
+    text-indent: 0.5rem;
   }
 </style>
