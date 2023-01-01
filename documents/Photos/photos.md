@@ -35,4 +35,5 @@
   - [Instagram](https://www.instagram.com/joel_meyerowitz/)
 - [사울 라이터(Saul Leiter)](https://www.saulleiterfoundation.org/)
 - [나탈리 카르푸셴코(Natalie Karpushenko)](https://www.natalie-karpushenko.com/home)
-  - [Instagram](https://www.instagram.com/nataliekarpushenko/)  
+  - [Instagram](https://www.instagram.com/nataliekarpushenko/)
+- [Eiji Ohashi(大橋 英児)](https://eijiohashi.com/en)
