@@ -22,6 +22,10 @@
   - [Youtube](https://www.youtube.com/@Gilsu)
 - [이창우(Chang W. Lee)](https://changwlee.com/)
   - [Instagram](https://www.instagram.com/nytchangster/)
+- [김중만](https://namu.wiki/w/%EA%B9%80%EC%A4%91%EB%A7%8C)
+  - [김중만 "한국인의 작가로서 길 가야 겠다 생각해 상업 작가 그만 두었다"](https://youtu.be/2Qa35X4jhpg)
+- [Rami Hyun(현효제)](https://www.instagram.com/projectsoldierkwv/)
+  - [Project-Soldier 한국전쟁 참전용사를 찾아서](https://youtu.be/Tg11PgBf4FU)
 
 ---
 
