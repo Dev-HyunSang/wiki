@@ -25,11 +25,13 @@ exports.BooksList = [
 ];
 
 exports.Daily_Log = [
-  "Daily_Log/2022-12"
+  "Daily_Log/2022-12",
+  "Daily_Log/2023-01"
 ]
 
 exports.MonthlyILearned = [
-  "Monthly-I-Learned/2022-12"
+  "Monthly-I-Learned/2022-12",
+  "Monthly-I-Learned/2023-01"
 ]
 
 exports.Photos = [
