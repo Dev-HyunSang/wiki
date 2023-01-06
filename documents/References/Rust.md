@@ -11,3 +11,6 @@
 - [Rust in the Android platform](https://security.googleblog.com/2021/04/rust-in-android-platform.html)
   - [Rust in the Android](https://brunch.co.kr/@advisor/31)
 - [토발즈 "리눅스, 내년엔 '러스트' 언어도 품는다"](https://zdnet.co.kr/view/?no=20220622162108)
+
+## Projects References
+- [⚙️ 5 Awesome Rust Projects People Don’t Know About](https://tomaszs2.medium.com/%EF%B8%8F-5-awesome-rust-projects-people-dont-know-about-9363b0a6fae2)
