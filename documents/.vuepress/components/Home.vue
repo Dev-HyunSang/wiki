@@ -9,6 +9,7 @@
     <h2>2023년 목표</h2>
     <ul>
       <li><input type="checkbox" disabled />최소 국내 2곳, 해외 1곳 이상 여행하기(서울 제외)</li>
+        <li class="li-item-tap">2023.01.03 ~ 04 - 부산 여행</li>
       <li>gRPC, Kubernetes 공부하기</li>
         <li class="li-item-tap"><input type="checkbox" disabled />gRPC 관련 서적 혹은 강의 2개 이상 읽고 보기</li>
       <li><input type="checkbox" disabled /> 인문학 관련 서적 5권 이상 읽기</li>

@@ -41,12 +41,15 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 - [좋은 팀 구성 및 개발 문화 조성의 중요성](https://yozm.wishket.com/magazine/detail/1738/)
 - [초기 스타트업의 개발 문화 만들기](https://brunch.co.kr/@holaxapps/28)
 
-## 엔지니어링(개발) 문서화
+## 엔지니어링(개발) 문서화 · 테크니컬 라이팅
 - [개발 문서화의 필요성과 효율적인 작성 방법](https://blog.kmong.com/%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%8C%80%EC%9B%90%EC%9D%84-%EA%B2%A9%EB%A0%AC%ED%9E%88-%ED%99%98%EC%98%81%ED%95%98%EB%8A%94-%EB%B2%95-bf42f7159309)
 - [개발자들이 문서화를 하는 이유는 뭘까? 왜 하는거지?](https://happy-coding-day.tistory.com/entry/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%B4-%EB%AC%B8%EC%84%9C%ED%99%94%EB%A5%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AD%98%EA%B9%8C-%EC%99%9C-%ED%95%98%EB%8A%94%EA%B1%B0%EC%A7%80)
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 1부](https://brunch.co.kr/@funidea/8)
 - [개발 시, 반드시 문서화 작업을 해야 하는 이유 - 2부](https://brunch.co.kr/@funidea/9)
 - [API 문서 톺아보기](https://tech.kakaoenterprise.com/127)
+- [테크니컬 라이팅 4대 원칙](https://tech.kakaoenterprise.com/102)
+- [초보자를 위한 테크니컬 라이팅의 모든 것](https://www.undernamu.com/ko/insights/technical-writing-for-beginner)
+- [개발자들을 위한 테크니컬 라이팅 10계명](https://tech.kakaoenterprise.com/110)
 
 ## 엔지니어링(개발) 기술 동향
 - [Tech predictions for 2023 and beyond](https://www.allthingsdistributed.com/2022/12/tech-predictions-for-2023-and-beyond.html)

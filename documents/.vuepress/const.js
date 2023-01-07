@@ -3,7 +3,8 @@ exports.Golang = [
   "Golang/20221219-자료-구조",
   "Golang/20221225-고루틴과-채널",
   "Golang/20221226-Request-and-Response-Format",
-  "Golang/20221229-JWT에서-Redis를-사용하는-이유"
+  "Golang/20221229-JWT에서-Redis를-사용하는-이유",
+  "Golang/20230107-Livekit-SDK-with-Golang"
 ]
 
 exports.References = [
