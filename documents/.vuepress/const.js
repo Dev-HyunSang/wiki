@@ -22,7 +22,8 @@ exports.Errors = [
 exports.BooksList = [
   "Books/20221217-차라투스트라는-이렇게-말했다",
   "Books/20221218-니체의-지혜",
-  "Books/20221218-어떻게-살-것인가"
+  "Books/20221218-어떻게-살-것인가",
+  "Books/20230110-니체와-장자는-이렇게-말했다"
 ];
 
 exports.Daily_Log = [

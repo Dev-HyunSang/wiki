@@ -37,3 +37,5 @@
 - [나탈리 카르푸셴코(Natalie Karpushenko)](https://www.natalie-karpushenko.com/home)
   - [Instagram](https://www.instagram.com/nataliekarpushenko/)
 - [Eiji Ohashi(大橋 英児)](https://eijiohashi.com/en)
+- [신 노구치(Shin Noguchi, シン ノグチ, 1976~ )](https://shinnoguchiphotography.com/)
+  - [@shinnoguchiphotos](https://www.instagram.com/shinnoguchiphotos/)
