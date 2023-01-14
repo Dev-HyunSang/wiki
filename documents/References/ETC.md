@@ -57,6 +57,8 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 
 ## 코드 관련
 - [코드 복잡도 줄이기 (Cyclomatic Complexity, NPath Complexity)](https://www.popit.kr/%EC%BD%94%EB%93%9C-%EB%B3%B5%EC%9E%A1%EB%8F%84-%EC%A4%84%EC%9D%B4%EA%B8%B0-cyclomatic-complexity-npath-complexity/)
+- [There’s No Such Thing as Clean Code](https://www.steveonstuff.com/2022/01/27/no-such-thing-as-clean-code)
+  - [Clean Code 라는 건 없습니다](https://news.hada.io/topic?id=5881)
 
 ## 관심 있는 회사의 일하는 방식 혹은 개발 방식
 - [We are the SpaceX software team, ask us anything!](https://www.reddit.com/r/spacex/comments/gxb7j1/we_are_the_spacex_software_team_ask_us_anything/)
