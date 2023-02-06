@@ -4,6 +4,7 @@
 ### Auth
 JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발하고 연구합니다.
 
+#### JWT(JSON Web Token)
 - [REST API 보안 및 인증 방식](https://dongwooklee96.github.io/post/2021/03/28/rest-api-%EB%B3%B4%EC%95%88-%EB%B0%8F-%EC%9D%B8%EC%A6%9D-%EB%B0%A9%EC%8B%9D.html)
 - [REST API의 이해와 설계-#3 API 보안](https://bcho.tistory.com/955)
 - [REST API 보안_1](https://cornswrold.tistory.com/289)
@@ -13,6 +14,9 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 - [JSON Web Tokens (JWT) are Dangerous for User Sessions—Here’s a Solution](https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/)
 - [Access Token과 Refresh Token이란 무엇인가?](https://dreamaz.tistory.com/22)
 - [Redis를 통한 JWT Refresh Token 관리](https://sol-devlog.tistory.com/22)
+
+#### SSO(Single Sign-On)
+- [SSO란 무엇입니까?](https://aws.amazon.com/ko/what-is/sso/)
 
 ## AI
 ### OpenGPT 

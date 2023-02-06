@@ -15,6 +15,9 @@ exports.References = [
   "References/ETC"
 ]
 
+exports.Thinkgings = [
+  "thinkings/codes.md",
+]
 
 exports.Errors = [
   "Errors/GitHub",

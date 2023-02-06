@@ -26,6 +26,10 @@ module.exports = {
         children: CONST.Errors
       },
       {
+        title: "Thinkings",
+        children: CONST.Thinkgings
+      },
+      {
         title: 'Books',
         children: CONST.BooksList
       },
