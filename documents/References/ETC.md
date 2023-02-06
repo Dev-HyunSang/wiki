@@ -72,3 +72,6 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 
 ## 관심 있는 회사의 일하는 방식 혹은 개발 방식
 - [We are the SpaceX software team, ask us anything!](https://www.reddit.com/r/spacex/comments/gxb7j1/we_are_the_spacex_software_team_ask_us_anything/)
+
+## Architecture
+- [소프트웨어 설계 20년 해보고 깨달은 ‘좋은 설계’의 조건](https://yozm.wishket.com/magazine/detail/1884/)
