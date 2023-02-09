@@ -2,7 +2,8 @@
 회사에서 업무 중 NCP(Naver Cloud Platform)를 만져볼 기회가 생겼는데, `aws-sdk-golang-v2`로 이미 AWS S3 관련 기능을 개발한 상태였습니다.  
 네이버 클라우드 플랫폼은 AWS SDK를 사용해서 Object Storage를 사용하도록 하고 있어서 기존의 코드를 재활용하려고 하였습니다. 하지만 인증 관련 오류 발생으로 인해서 해결 방안을 찾아보고 기록하고 있습니다.
 
-> Naver Cloud Platform SDK 개발자 분들...ㅠ [NaverCloudPlatform/ncloud-sdk-go-v2](https://github.com/NaverCloudPlatform/ncloud-sdk-go-v2)에 Object Storage도 추가해 주시거나 Go용 AWS SDK 예제 문서화해 주시면 정말로 감사하겠습니다ㅠㅠ  
+> Naver Cloud Platform SDK 개발자 분들...ㅠ  
+>[NaverCloudPlatform/ncloud-sdk-go-v2](https://github.com/NaverCloudPlatform/ncloud-sdk-go-v2)에 Object Storage도 추가해 주시거나 Go용 AWS SDK 예제 문서화해 주시면 정말로 감사하겠습니다ㅠㅠ  
 >  조금 더 많은 프로그래밍 언어가 네이버 클라우드 플랫폼을 사용할 수 있을 듯 해요...ㅠ
 
 ## JavaScript용 AWS SDK를 통한 테스트
