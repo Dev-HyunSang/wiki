@@ -7,6 +7,11 @@
       <li>항상 프로그래밍 언어를 배우며, 컴퓨터 공학적인 내용에 대해서 관심이 많습니다.<br/>주로 메모리와 데이터 구조에 대해서 공부하고 있습니다.</li>
       <li>기록을 좋아해요. 제 생각과 그리고 다양한 경험들을 경험하고자 노력하고 경험을 기록하고자 노력하고 있어요.<br/>사진을 좋아해서 많이 찍고 기록하고 요즘에는 에세이를 쓰고자 노력하고 있어요.</li>
     </ul>
+    <div>
+      <a href="https://www.teamgrit.kr/">Software Engineer @TeamGRIT,Inc.</a><br/>
+      <a href="https://gdg.community.dev/gdg-golang-korea/">Organizer @GDG Golang Korea</a><br/>
+      <a href="https://home.sch.ac.kr/security/index.jsp">Soonchunhyang University Information Security Engineering</a>
+    </div>
     <h2>2023년 목표</h2>
     <ul>
       <li><input type="checkbox" disabled />최소 국내 2곳, 해외 1곳 이상 여행하기(서울 제외)</li>

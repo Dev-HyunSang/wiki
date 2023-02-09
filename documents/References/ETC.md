@@ -40,6 +40,8 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 - [LINE 서버 개발자가 되기까지 내가 준비한 것들](https://engineering.linecorp.com/ko/blog/things-i-prepared-to-be-a-line-server-developer/)
 - [[나눔글] 개발자 커리어패스에 대해서](https://okky.kr/articles/828141)
 - [CTO의 업무, 이직 후 적응기](https://brunch.co.kr/@chickenmoim/28)
+- [20 Things I’ve Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
+  - [20년간 소프트웨어 엔지니어로서 배운 20가지](https://news.hada.io/topic?id=8358)
 
 ## 엔지니어링(개발) 문화
 - [좋은 개발 문화란?](https://www.brainbackdoor.com/retrospective/dev-culture)
