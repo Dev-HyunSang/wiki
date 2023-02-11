@@ -22,6 +22,7 @@ exports.References = [
   "References/Golang",
   "References/Rust",
   "References/Security",
+  "References/Media",
   "References/ETC"
 ]
 
