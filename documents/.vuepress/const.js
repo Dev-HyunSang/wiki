@@ -9,6 +9,15 @@ exports.Golang = [
   "Golang/20230208-네이버-클라우드-플랫폼과-AWS-SDK-for-Go"
 ]
 
+exports.Rust = [
+  "Rust/20230211-Installation",
+  "Rust/20230211-Hello-World",
+]
+
+exports.Security = [
+  "Security/2023-February",
+]
+
 exports.References = [
   "References/Golang",
   "References/Rust",

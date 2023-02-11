@@ -18,6 +18,14 @@ module.exports = {
         children: CONST.Golang
       },
       {
+        title: "Rust",
+        children: CONST.Rust
+      },
+      {
+        title: "Security",
+        children: CONST.Security
+      },
+      {
         title: "References",
         children: CONST.References
       },
