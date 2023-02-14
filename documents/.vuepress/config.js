@@ -22,6 +22,10 @@ module.exports = {
         children: CONST.Rust
       },
       {
+        title: "Media",
+        children: CONST.Media
+      },
+      {
         title: "Security",
         children: CONST.Security
       },
@@ -43,12 +47,12 @@ module.exports = {
       },
     ],
     nav: [{
-        text: 'GitHub',
-        link: 'https://github.com/Dev-HyunSang/'
-      }, {
-        text: 'Blog',
-        link: 'https://hyunsang.dev/'
-      }
+      text: 'GitHub',
+      link: 'https://github.com/Dev-HyunSang/'
+    }, {
+      text: 'Blog',
+      link: 'https://hyunsang.dev/'
+    }
     ]
   },
 }

@@ -14,6 +14,9 @@ exports.Rust = [
   "Rust/20230211-Hello-World",
 ]
 
+exports.Media = [
+  "Media/TimeLapse-with-FFmpeg"
+]
 exports.Security = [
   "Security/2023-February",
 ]
