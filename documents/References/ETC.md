@@ -42,6 +42,7 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 - [CTO의 업무, 이직 후 적응기](https://brunch.co.kr/@chickenmoim/28)
 - [20 Things I’ve Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
   - [20년간 소프트웨어 엔지니어로서 배운 20가지](https://news.hada.io/topic?id=8358)
+- [19년 차 개발자가 고찰한 주니어 개발자가 성장하기 좋은 회사 환경](https://f-lab.kr/blog/criteria-choosing-company-for-developers)
 
 ## 엔지니어링(개발) 문화
 - [좋은 개발 문화란?](https://www.brainbackdoor.com/retrospective/dev-culture)
