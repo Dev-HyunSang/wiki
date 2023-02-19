@@ -10,8 +10,7 @@ exports.Golang = [
 ]
 
 exports.Rust = [
-  "Rust/20230211-Installation",
-  "Rust/20230211-Hello-World",
+  "Rust/Session1",
 ]
 
 exports.Media = [
