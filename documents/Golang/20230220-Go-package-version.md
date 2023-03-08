@@ -1,4 +1,4 @@
-# 20230220 - implicit function instantiation requires go1.18 or later (-lang was set to go1.17; check go.mod) 오류 해결하기
+# 20230220 - implicit function instantiation requires go1.18 or later 오류 해결하기
 - 어느날 회사 프로젝트를 실행하던 도중 아래와 같은 오류가 발생합니다.
 
 ```shell
