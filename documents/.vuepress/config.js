@@ -18,6 +18,10 @@ module.exports = {
         children: CONST.Golang
       },
       {
+        title: "Algorithm with Golang",
+        children: CONST.AlgorithmWithGolang
+      },
+      {
         title: "Rust",
         children: CONST.Rust
       },
