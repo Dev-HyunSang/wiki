@@ -7,7 +7,8 @@ exports.Golang = [
   "Golang/20230107-Livekit-SDK-with-Golang",
   "Golang/20230122-환경변수에-대한-고찰",
   "Golang/20230208-네이버-클라우드-플랫폼과-AWS-SDK-for-Go",
-  "Golang/20230220-Go-package-version"
+  "Golang/20230220-Go-package-version",
+  "Golang/20230403-Bazel-with-Golang"
 ]
 
 exports.AlgorithmWithGolang = [
@@ -22,7 +23,8 @@ exports.Media = [
   "Media/TimeLapse-with-FFmpeg"
 ]
 exports.Security = [
-  "Security/2023-February",
+  "Security/2023",
+  "Security/cryptology",
 ]
 
 exports.References = [
@@ -46,5 +48,10 @@ exports.BooksList = [
   "Books/20221217-차라투스트라는-이렇게-말했다",
   "Books/20221218-니체의-지혜",
   "Books/20221218-어떻게-살-것인가",
-  "Books/20230110-니체와-장자는-이렇게-말했다"
+  "Books/20230110-니체와-장자는-이렇게-말했다",
+  "Books/20230404-나의-첫-죽음학-수업"
 ];
+
+exports.Newtwork = [
+  "Network/20230417-TCP.md"
+]

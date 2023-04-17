@@ -26,6 +26,10 @@ module.exports = {
         children: CONST.Rust
       },
       {
+        title: "Network",
+        children: CONST.Newtwork
+      },
+      {
         title: "Media",
         children: CONST.Media
       },
