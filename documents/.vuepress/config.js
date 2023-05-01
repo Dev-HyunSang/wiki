@@ -18,12 +18,20 @@ module.exports = {
         children: CONST.Golang
       },
       {
+        title: "Rust",
+        children: CONST.Rust
+      },
+      {
         title: "Algorithm with Golang",
         children: CONST.AlgorithmWithGolang
       },
       {
-        title: "Rust",
-        children: CONST.Rust
+        title: "Coding Interview University",
+        children: CONST.CodingInterviewUniversity
+      },
+      {
+        title: "Computer Science",
+        children: CONST.ComputerScience
       },
       {
         title: "Network",
@@ -44,6 +52,10 @@ module.exports = {
       {
         title: "Errors",
         children: CONST.Errors
+      },
+      {
+        title: "Videos",
+        children: CONST.Videos
       },
       {
         title: "Thinkings",

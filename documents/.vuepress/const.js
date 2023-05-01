@@ -15,8 +15,16 @@ exports.AlgorithmWithGolang = [
   "Algorithm-with-Golang/programmers"
 ]
 
+exports.ComputerScience = [
+  "Computer-Science/20230427-what-is-kernel",
+]
+
+exports.CodingInterviewUniversity = [
+  "coding-interview-university/coding-interview-university"
+]
+
 exports.Rust = [
-  "Rust/Session1",
+  "Rust/rust-building-application",
 ]
 
 exports.Media = [
@@ -30,6 +38,7 @@ exports.Security = [
 exports.References = [
   "References/Golang",
   "References/Rust",
+  "References/DevOps",
   "References/Security",
   "References/Media",
   "References/ETC"
@@ -53,5 +62,9 @@ exports.BooksList = [
 ];
 
 exports.Newtwork = [
-  "Network/20230417-TCP.md"
+  "Network/20230417-TCP"
+]
+
+exports.Videos = [
+  "Videos/Experience-and-Advice"
 ]
