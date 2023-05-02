@@ -64,6 +64,7 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
 - [테크니컬 라이팅 4대 원칙](https://tech.kakaoenterprise.com/102)
 - [초보자를 위한 테크니컬 라이팅의 모든 것](https://www.undernamu.com/ko/insights/technical-writing-for-beginner)
 - [개발자들을 위한 테크니컬 라이팅 10계명](https://tech.kakaoenterprise.com/110)
+- [넷마블 테크니컬 라이터로 일한 8개월의 회고](https://netmarble.engineering/8-months-in-the-life-of-a-technical-writer-at-netmarble/)
 
 ## 엔지니어링(개발) 기술 동향
 - [Tech predictions for 2023 and beyond](https://www.allthingsdistributed.com/2022/12/tech-predictions-for-2023-and-beyond.html)
