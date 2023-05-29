@@ -8,15 +8,19 @@ exports.Golang = [
   "Golang/20230122-환경변수에-대한-고찰",
   "Golang/20230208-네이버-클라우드-플랫폼과-AWS-SDK-for-Go",
   "Golang/20230220-Go-package-version",
-  "Golang/20230403-Bazel-with-Golang"
+  "Golang/20230403-Bazel-with-Golang",
 ]
 
 exports.AlgorithmWithGolang = [
-  "Algorithm-with-Golang/programmers"
+  "Algorithm-with-Golang/programmers",
+  "Algorithm-with-Golang/20230525-what-is-dfs",
+  "Algorithm-with-Golang/20230523-data-structure-and-algorithms-1",
 ]
 
 exports.ComputerScience = [
   "Computer-Science/20230427-what-is-kernel",
+  "Computer-Science/20230521-what-is-fota-and-ota",
+  "Computer-Science/20230526-what-is-ca"
 ]
 
 exports.CodingInterviewUniversity = [
@@ -25,6 +29,7 @@ exports.CodingInterviewUniversity = [
 
 exports.Rust = [
   "Rust/rust-building-application",
+  "Rust/20230517-Rust-Ownership"
 ]
 
 exports.Media = [

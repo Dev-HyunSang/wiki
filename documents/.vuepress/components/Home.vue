@@ -9,13 +9,6 @@
       <li><b>Keyword: </b>Golang, Rust, Back-End, DevOps(GitHub Action), Security</li>
     </ul>
     <hr />
-    <div>
-      <a href="https://www.teamgrit.kr/">Back-End Software Engineer <b>@TeamGRIT,Inc.</b></a><br />
-      <a href="https://gdg.community.dev/gdg-golang-korea/">Community Organizer <b>@GDG Golang Korea</b></a><br />
-      <a href="https://home.sch.ac.kr/security/index.jsp">Undergraduate students <b>@Soonchunhyang
-          University Information Security Engineering</b></a>
-    </div>
-    <hr />
     <div class="links">
       <li class="li-item-none">
         <a href="https://hyunsang.dev">Tech Blog</a>

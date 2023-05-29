@@ -27,6 +27,9 @@
 - [GraphQL 개념잡기](https://tech.kakao.com/2019/08/01/graphql-basic/)
 - [Using GraphQL with Golang](https://www.apollographql.com/blog/graphql/golang/using-graphql-with-golang/)
 
+## Bazel
+- [Building Uber’s Go Monorepo with Bazel](https://www.uber.com/en-SE/blog/go-monorepo-bazel/)
+
 ## Go언어를 이용한 개발 회고
 - [Go와 함께하는 전화망 서비스 구축 1편](https://d2.naver.com/helloworld/5827706)
 - [Go와 함께하는 전화망 서비스 구축 2편](https://d2.naver.com/helloworld/0814313)
