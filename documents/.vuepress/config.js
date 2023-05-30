@@ -54,14 +54,6 @@ module.exports = {
         children: CONST.Errors
       },
       {
-        title: "Videos",
-        children: CONST.Videos
-      },
-      {
-        title: "Thinkings",
-        children: CONST.Thinkgings
-      },
-      {
         title: 'Books',
         children: CONST.BooksList
       },

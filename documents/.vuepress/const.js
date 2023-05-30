@@ -7,7 +7,6 @@ exports.Golang = [
   "Golang/20230107-Livekit-SDK-with-Golang",
   "Golang/20230122-환경변수에-대한-고찰",
   "Golang/20230208-네이버-클라우드-플랫폼과-AWS-SDK-for-Go",
-  "Golang/20230220-Go-package-version",
   "Golang/20230403-Bazel-with-Golang",
 ]
 
@@ -46,6 +45,7 @@ exports.References = [
   "References/DevOps",
   "References/Security",
   "References/Media",
+  "References/Organizational-Culture",
   "References/ETC"
 ]
 
