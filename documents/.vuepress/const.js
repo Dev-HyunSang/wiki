@@ -55,7 +55,8 @@ exports.Thinkgings = [
 
 exports.Errors = [
   "Errors/GitHub",
-  "Errors/Golang"
+  "Errors/Golang",
+  "Errors/DataBase"
 ]
 
 exports.BooksList = [
