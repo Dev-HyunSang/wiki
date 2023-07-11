@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         title: "Network",
-        children: CONST.Newtwork
+        children: CONST.Network
       },
       {
         title: "Media",

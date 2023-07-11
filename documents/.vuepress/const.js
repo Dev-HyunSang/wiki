@@ -64,10 +64,11 @@ exports.BooksList = [
   "books/20221218-니체의-지혜",
   "books/20221218-어떻게-살-것인가",
   "books/20230110-니체와-장자는-이렇게-말했다",
-  "books/20230404-나의-첫-죽음학-수업"
+  "books/20230404-나의-첫-죽음학-수업",
+  "books/20230711-왜-나는-너를-사랑하는가"
 ];
 
-exports.Newtwork = [
+exports.Network = [
   "networks/20230417-TCP"
 ]
 
