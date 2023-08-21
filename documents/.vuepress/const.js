@@ -8,56 +8,55 @@ exports.Golang = [
   "golang/20230122-환경변수에-대한-고찰",
   "golang/20230208-네이버-클라우드-플랫폼과-AWS-SDK-for-Go",
   "golang/20230403-Bazel-with-Golang",
-]
+  "golang/20230728-OpenAPI-with-Golang",
+];
+
+exports.JavaScript = ["javascript/20230812-nodejs-express-router"];
 
 exports.AlgorithmWithGolang = [
   "algorithm-with-golang/programmers",
   "algorithm-with-golang/20230525-what-is-dfs",
   "algorithm-with-golang/20230523-data-structure-and-algorithms-1",
+];
+
+exports.DataBase = ["database/20230726-what-is-the-transaction"];
+
+exports.Web = [
+  "web/20230821-http-method"
 ]
 
 exports.ComputerScience = [
   "computer-science/20230427-what-is-kernel",
   "computer-science/20230521-what-is-fota-and-ota",
-  "computer-science/20230526-what-is-ca"
-]
+  "computer-science/20230526-what-is-ca",
+];
 
 exports.CodingInterviewUniversity = [
-  "coding-interview-university/coding-interview-university"
-]
+  "coding-interview-university/coding-interview-university",
+];
 
 exports.Rust = [
   "rust/rust-building-application",
-  "rust/20230517-Rust-Ownership"
-]
+  "rust/20230517-Rust-Ownership",
+];
 
-exports.Media = [
-  "media/TimeLapse-with-FFmpeg"
-]
-exports.Security = [
-  "security/2023",
-  "security/cryptology",
-]
+exports.Media = ["media/TimeLapse-with-FFmpeg"];
+exports.Security = ["security/2023", "security/cryptology"];
 
 exports.References = [
   "references/Golang",
   "references/Rust",
+  "references/JavaScript",
   "references/DevOps",
   "references/Security",
   "references/Media",
   "references/Organizational-Culture",
-  "references/ETC"
-]
+  "references/ETC",
+];
 
-exports.Thinkgings = [
-  "thinkings/codes.md",
-]
+exports.Thinkgings = ["thinkings/codes.md"];
 
-exports.Errors = [
-  "errors/GitHub",
-  "errors/Golang",
-  "errors/DataBase"
-]
+exports.Errors = ["errors/GitHub", "errors/Golang", "errors/DataBase"];
 
 exports.BooksList = [
   "books/20221217-차라투스트라는-이렇게-말했다",
@@ -65,13 +64,11 @@ exports.BooksList = [
   "books/20221218-어떻게-살-것인가",
   "books/20230110-니체와-장자는-이렇게-말했다",
   "books/20230404-나의-첫-죽음학-수업",
-  "books/20230711-왜-나는-너를-사랑하는가"
+  "books/20230711-왜-나는-너를-사랑하는가",
 ];
 
-exports.Network = [
-  "networks/20230417-TCP"
-]
+exports.Network = ["networks/20230417-TCP"];
 
-exports.Videos = [
-  "videos/Experience-and-Advice"
-]
+exports.Videos = ["videos/Experience-and-Advice"];
+
+exports.ETC = ["etc/20230731-military-service"];
