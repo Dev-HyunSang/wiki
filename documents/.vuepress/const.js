@@ -11,7 +11,9 @@ exports.Golang = [
   "golang/20230728-OpenAPI-with-Golang",
 ];
 
-exports.JavaScript = ["javascript/20230812-nodejs-express-router"];
+exports.JavaScript = [
+  "javascript/20230822-nodejs-express-and-cluster"
+];
 
 exports.AlgorithmWithGolang = [
   "algorithm-with-golang/programmers",
