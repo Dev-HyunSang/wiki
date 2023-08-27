@@ -2,9 +2,9 @@
   "name": "til",
   "description": "오늘 배운 건 오늘 적자",
   "scripts": {
-    "dev": "vuepress dev documents",
-    "build": "vuepress build documents",
-    "commit": "vuepress build documents && git add build -f && git commit -m 'docs: update docs'",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev documents",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build documents",
+    "commit": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build documents && git add build -f && git commit -m 'docs: update docs'",
     "deploy": "git push origin `git subtree split --prefix build master`:gh-pages --force"
   },
   "dependencies": {

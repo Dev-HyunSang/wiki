@@ -44,6 +44,7 @@ JWT(JSON Web Token)과 Redis 등 사용자 인증과 관련된 기능을 개발�
   - [20년간 소프트웨어 엔지니어로서 배운 20가지](https://news.hada.io/topic?id=8358)
 - [19년 차 개발자가 고찰한 주니어 개발자가 성장하기 좋은 회사 환경](https://f-lab.kr/blog/criteria-choosing-company-for-developers)
 - [이력서 작성이 처음이라면, 채용팀이 알려주는 개발자 이력서 작성 꿀팁!](https://youtu.be/dWP8KlOkCk8)
+- [[인프콘 2023 발표] 1. 무엇이 탁월한 개발자를 만드는가](https://steady-study.super.site/what-makes-a-great-software-engineer)
 
 ## 엔지니어링(개발) 문화
 - [좋은 개발 문화란?](https://www.brainbackdoor.com/retrospective/dev-culture)

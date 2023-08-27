@@ -1,6 +1,13 @@
 <template>
   <div class="info">
     <h1>Welcome to Today HyunSang Learned</h1>
+    <div class="info">
+      <ul>
+        <li>안녕하세요. 박현상입니다. 저는 <b>Go언어</b>와 <b>JavaScript(Node.js Express)</b>를 통해서 백엔드 개발을 하고 있습니다.</li>
+        <li>프로그래밍 언어를 통해서 백엔드 개발을 하면서 효율적이지만 보안적으로 안전한 백엔드 개발를 하기 위한 방법을 공부하고자 합니다.</li>
+        <li>커뮤니티 활동을 통해서 다양한 분들을 만나뵙고 커뮤니케이션을 통해서 커뮤니케이션을 하는 방법과 다른 분들이 어떤 기술을 통해서 서비스, 솔루션을 개발하는지에 대해서 관심이 많습니다.</li>
+      </ul>
+    </div>
     <hr />
     <div class="links">
       <li class="li-item-none">

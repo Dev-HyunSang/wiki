@@ -11,15 +11,11 @@ exports.Golang = [
   "golang/20230728-OpenAPI-with-Golang",
 ];
 
-exports.JavaScript = [
-  "javascript/20230822-nodejs-express-and-cluster"
+exports.JavaScript = [ 
+  "javascript/20230822-nodejs-express-and-cluster",
+  "javascript/20230824-nodejs-express-error-handling"
 ];
 
-exports.AlgorithmWithGolang = [
-  "algorithm-with-golang/programmers",
-  "algorithm-with-golang/20230525-what-is-dfs",
-  "algorithm-with-golang/20230523-data-structure-and-algorithms-1",
-];
 
 exports.DataBase = ["database/20230726-what-is-the-transaction"];
 
@@ -33,17 +29,11 @@ exports.ComputerScience = [
   "computer-science/20230526-what-is-ca",
 ];
 
-exports.CodingInterviewUniversity = [
-  "coding-interview-university/coding-interview-university",
-];
 
 exports.Rust = [
   "rust/rust-building-application",
   "rust/20230517-Rust-Ownership",
 ];
-
-exports.Media = ["media/TimeLapse-with-FFmpeg"];
-exports.Security = ["security/2023", "security/cryptology"];
 
 exports.References = [
   "references/Golang",
@@ -55,8 +45,6 @@ exports.References = [
   "references/Organizational-Culture",
   "references/ETC",
 ];
-
-exports.Thinkgings = ["thinkings/codes.md"];
 
 exports.Errors = ["errors/GitHub", "errors/Golang", "errors/DataBase"];
 

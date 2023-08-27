@@ -37,14 +37,6 @@ module.exports = {
         children: CONST.Web,
       },
       {
-        title: "Algorithm with Golang",
-        children: CONST.AlgorithmWithGolang,
-      },
-      {
-        title: "Coding Interview University",
-        children: CONST.CodingInterviewUniversity,
-      },
-      {
         title: "Computer Science",
         children: CONST.ComputerScience,
       },
