@@ -36,14 +36,14 @@ exports.Rust = [
 ];
 
 exports.References = [
-  "references/Golang",
-  "references/Rust",
-  "references/JavaScript",
-  "references/DevOps",
-  "references/Security",
-  "references/Media",
-  "references/Organizational-Culture",
-  "references/ETC",
+  "references/golang",
+  "references/rust",
+  "references/javascript",
+  "references/devops",
+  "references/security",
+  "references/media",
+  "references/company-and-personal",
+  "references/etc",
 ];
 
 exports.Errors = ["errors/GitHub", "errors/Golang", "errors/DataBase"];
