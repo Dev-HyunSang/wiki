@@ -61,3 +61,11 @@
 - ***사람들을 욕망을 이야기 함. 진정성으로 하고 싶으면 해야함. 리더가 되고 싶으면 리더처럼 생각하고 행동해야함.***
   - **자리가 사람을 만든다 vs 자리가 사람을 보여준다**
 - **진정성 = Value x Action x Time** = VAT
+
+## Be Understood, Everywhere - Communication & IR Skill
+- **Speaker.** Yongmin Cho, Head of MMS EC/MAC KR, Google
+- CLEAR - Foucs on the problem you want to solve
+- User Friendly - Be understood with User PoV narrative
+- Goal Oriented - Make the most out of your delivery
+- 커뮤니케이션에서의 중요한 것은 아웃컴.
+  -  효율적으로 오너쉽을 끌어올릴 수 있음. 액션 아이템을 아웃컴으로 이야기 해야함.
