@@ -17,8 +17,16 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
+        title: "Monthly I Learned",
+        children: CONST.MonthlyILearned,
+      },
+      {
         title: "Golang",
         children: CONST.Golang,
+      },
+      {
+        title: "Cyber Security",
+        children: CONST.CyberSecurity,
       },
       {
         title: "JavaScript",
@@ -27,6 +35,22 @@ module.exports = {
       {
         title: "Rust",
         children: CONST.Rust,
+      },
+      {
+        title: "The Rust Programming Language",
+        children: CONST.TheRustProgrammingLanguage,
+      },
+      {
+        title: "Cyber Security Trend Analysis",
+        children: CONST.CyberSecurityTrendAnalysis,
+      },
+      {
+        title: "Thesis",
+        children: CONST.Thesis,
+      },
+      {
+        title: "Listening",
+        children: CONST.Listening,
       },
       {
         title: "Database",

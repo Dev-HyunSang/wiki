@@ -69,3 +69,4 @@
 - Goal Oriented - Make the most out of your delivery
 - 커뮤니케이션에서의 중요한 것은 아웃컴.
   -  효율적으로 오너쉽을 끌어올릴 수 있음. 액션 아이템을 아웃컴으로 이야기 해야함.
+  

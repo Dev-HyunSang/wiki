@@ -1,3 +1,8 @@
+exports.MonthlyILearned = [ 
+  "monthly-i-learned/2023-09",
+  "monthly-i-learned/2023-10",
+];
+
 exports.Golang = [
   "golang/20221217-변수와-자료형에-대해",
   "golang/20221219-자료-구조",
@@ -11,6 +16,21 @@ exports.Golang = [
   "golang/20230728-OpenAPI-with-Golang",
 ];
 
+exports.CyberSecurity = [
+  "cyber_security/what-is-the-sim",
+  "cyber_security/what-is-the-firewall"
+]
+
+exports.TheRustProgrammingLanguage = [
+  "the-rust-programming-language/ch01",
+  "the-rust-programming-language/ch02",
+  "the-rust-programming-language/ch03",
+];
+
+exports.Listening = [
+  "listening/Google-for-Developer-Community Summit"
+];
+
 exports.JavaScript = [ 
   "javascript/20230822-nodejs-express-and-cluster",
   "javascript/20230824-nodejs-express-error-handling"
@@ -21,14 +41,17 @@ exports.DataBase = ["database/20230726-what-is-the-transaction"];
 
 exports.Web = [
   "web/20230821-http-method"
-]
-
-exports.ComputerScience = [
-  "computer-science/20230427-what-is-kernel",
-  "computer-science/20230521-what-is-fota-and-ota",
-  "computer-science/20230526-what-is-ca",
 ];
 
+exports.ComputerScience = [];
+
+exports.Thesis = [
+  "thesis/북한_사이버_공격_전략의_진화",
+];
+
+exports.CyberSecurityTrendAnalysis = [
+  "cyber-security-trend-analysis/north_korea_it_workers"
+]
 
 exports.Rust = [
   "rust/rust-building-application",

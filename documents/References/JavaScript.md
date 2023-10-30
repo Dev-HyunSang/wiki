@@ -10,13 +10,16 @@
 ## Code Style
 - [나쁜 자바스크립트 작성 습관과 작별하기](https://yozm.wishket.com/magazine/detail/1836/)
 
-## REST API
-
 ### Error Handling
 - [오류 처리 - Express.js](https://expressjs.com/ko/guide/error-handling.html)
 - [Node.js express와 error handling](https://teamdable.github.io/techblog/express-error-handling)
 - [에러 처리를 위한 익스프레스 가이드](https://jeonghwan-kim.github.io/node/2017/08/17/express-error-handling.html)
 	- [The 80/20 Guide to Express Error Handling](http://thecodebarbarian.com/80-20-guide-to-express-error-handling.html)
+
+## vs TypeScript
+- [[typescript vs javascript] 어떤 언어를 써야할까? 이 글로 종결하자!](https://kid-dev.tistory.com/13)
+- [[JS] JS와 TS의 차이점](https://koras02.tistory.com/160)
+- [JavaScript VS TypeScript](https://jaeseokim.dev/Javascript/javascript_vs_typescript/)
 
 ## Package
 - [`npmjs.com` - express-session](https://www.npmjs.com/package/express-session)
