@@ -25,20 +25,24 @@ module.exports = {
         children: CONST.Golang,
       },
       {
-        title: "Cyber Security",
-        children: CONST.CyberSecurity,
+        title: "Golang Algorithm",
+        children: CONST.GolangAlgorithm,
+      },
+      {
+        title: "Java",
+        children: CONST.Java,
       },
       {
         title: "JavaScript",
         children: CONST.JavaScript,
       },
       {
-        title: "Rust",
-        children: CONST.Rust,
+        title: "Computer Science",
+        children: CONST.ComputerScience,
       },
       {
-        title: "The Rust Programming Language",
-        children: CONST.TheRustProgrammingLanguage,
+        title: "Cyber Security",
+        children: CONST.CyberSecurity,
       },
       {
         title: "Cyber Security Trend Analysis",
@@ -53,28 +57,8 @@ module.exports = {
         children: CONST.Listening,
       },
       {
-        title: "Database",
+        title: "DataBase",
         children: CONST.DataBase,
-      },
-      {
-        title: "Web",
-        children: CONST.Web,
-      },
-      {
-        title: "Computer Science",
-        children: CONST.ComputerScience,
-      },
-      {
-        title: "Network",
-        children: CONST.Network,
-      },
-      {
-        title: "Media",
-        children: CONST.Media,
-      },
-      {
-        title: "Security",
-        children: CONST.Security,
       },
       {
         title: "References",
@@ -87,10 +71,6 @@ module.exports = {
       {
         title: "Books",
         children: CONST.BooksList,
-      },
-      {
-        title: "ETC",
-        children: CONST.ETC,
       },
     ],
     nav: [

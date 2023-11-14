@@ -1,6 +1,4 @@
 # Rust
-두번째로 관심이 많은 Rust에 대한 자료를 기록합니다.  
-배우기 난해한 언어인지라 차근차근 배우고 있습니다.  
 
 ## What is the Rust?
 - [C가 주옥같은 개발자들 보세요. Rust 10분 정리!](https://youtu.be/w1dlmOjDLX8)

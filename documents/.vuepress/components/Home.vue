@@ -6,28 +6,22 @@
         꾸준히, 조금씩, 오랫동안.
       </h3>
       <ul>
-        <li>안녕하세요. 박현상입니다.<br/>
-          저는 <b>Go언어</b>와 <b>JavaScript(Node.js Express)</b>를 통해서 백엔드 개발을 하고 있습니다.<br/>
-          최근에는 Rust에 관심이 생겨서 배우고 있습니다. 보다 다양한 기술들을 살펴보며 배워나가고 있습니다.</li>
-        <li>최근에는 공산주의 국가의 사이버 보안과 관련된 동향 분석을 통해서 공산주의 국가의 사이버 공격 방법에 대해서 공부하고 있습니다.</li>
-        <li>프로그래밍 언어를 통해서 백엔드 개발을 하면서 효율적이지만 보안적으로 안전한 백엔드 개발를 하기 위한 방법을 공부하고자 합니다.</li>
-        <li>커뮤니티 활동을 통해서 다양한 분들을 만나뵙고 커뮤니케이션을 통해서 커뮤니케이션을 하는 방법과 다른 분들이 어떤 기술을 통해서 서비스, 솔루션을 개발하는지에 대해서 관심이 많습니다.</li>
+        <li><b>다양한 것들을 공부하고 배우며, 앞으로의 나 자신을 키우기 위해서 노력합니다.</b></li>
+        <li><b>다양한 것들 속에는 개인적인 소양도 있겠으며, 개발 관련된 기술들에 대해서도 배웁니다.</b></li>
+        <li><b>최근에는 관심 있는 기술과 능력이 참 많은 것 같습니다.</b></li>
+        <li><b>커뮤니케이션 능력은 개인적으로 앞으로 많은 사람들과 함께 일하며, 이야기하며 많은 점들을 배우고자 합니다.</b></li>
+        <li><b>공부하는 내용도 기록하지만 개인의 생각도 정리하며, 때로는 독단적인 주로 기고합니다.</b></li>
       </ul>
+      <blockquote>
+        <b>여러 변덕스러운 우연이, 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. <br/>
+        나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다. 취업 준비, 결혼 준비, 육아 교육 승진 은퇴 노후 준비를 거쳐 어디 병원 그럴듯한 일인실에서 사망하기 위한 준비에 산만해지지 않기를 바랍니다. <br />
+        무례와 혐오와 경쟁과 분열과 비교와 나태와 허무의 달콤함에 길들지 말길, 의미와 무의미의 온갖 폭력을 이겨내고 하루하루를 온전히 경험하길, 그 끝에서 오래 기다리고 있는 낯선 나를 아무 아쉬움 없이 맞이하길 바랍니다.</b> - 수학자 허준이
+      </blockquote>
     </div>
     <hr />
     <div class="links">
-      <li class="li-item-none">
-        <a href="https://hyunsang.dev">Tech Blog</a>
-      </li>
-      <li class="li-item-none">
-        <a href="https://about.hyunsang.dev">Portfolio</a>
-      </li>
-      <li class="li-item-none">
-        <a href="https://github.com/dev-hyunsang">GitHub</a>
-      </li>
-      <li class="li-item-none">
-        <a href="https://www.linkedin.com/in/hyunsangpark/">Linkedin</a>
-      </li>
+      <span><a href="https://hyunsang.dev">Tech Blog</a> | <a href="https://github.com/dev-hyunsang">GitHub</a></span> | <a href="https://www.linkedin.com/in/parkhyunsang/">Linkedin</a><span/><br/>
+      <a href="mailto:me@hyunsang.dev">me@hyunsang.dev</a> · <a href="mailto:parkhyunsang0625@gmail.com">parkhyunsang0625@gmail.com</a>
     </div>
   </div>
 </template>
@@ -35,20 +29,9 @@
 blockquote {
   border-left: 3px solid #3eaf7c;
   padding-left: 10px;
+  font-size: 16px;
 }
-
-.links {
-  text-align: right;
-}
-
-.li-item-none {
-  list-style: none;
-  padding-bottom: 0.1rem;
-}
-
-.li-item-tap {
-  /* padding-left: 1rem; */
-  list-style-position: inside;
-  text-indent: 0.5rem;
+.links{
+  text-align: center;
 }
 </style>

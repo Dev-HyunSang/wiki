@@ -1,6 +1,7 @@
 exports.MonthlyILearned = [ 
-  "monthly-i-learned/2023-09",
-  "monthly-i-learned/2023-10",
+  "monthly_i_learned/2023_09",
+  "monthly_i_learned/2023_10",
+  "monthly_i_learned/2023_11",
 ];
 
 exports.Golang = [
@@ -16,19 +17,8 @@ exports.Golang = [
   "golang/20230728-OpenAPI-with-Golang",
 ];
 
-exports.CyberSecurity = [
-  "cyber_security/what-is-the-sim",
-  "cyber_security/what-is-the-firewall"
-]
-
-exports.TheRustProgrammingLanguage = [
-  "the-rust-programming-language/ch01",
-  "the-rust-programming-language/ch02",
-  "the-rust-programming-language/ch03",
-];
-
-exports.Listening = [
-  "listening/Google-for-Developer-Community Summit"
+exports.GolangAlgorithm = [
+  "golang_algorithm/20231106_tucker_golang_algorithm_01",
 ];
 
 exports.JavaScript = [ 
@@ -36,12 +26,17 @@ exports.JavaScript = [
   "javascript/20230824-nodejs-express-error-handling"
 ];
 
+exports.CyberSecurity = [
+  "cyber_security/what-is-the-sim",
+  "cyber_security/what-is-the-firewall"
+];
+
+exports.Listening = [
+  "listening/Google-for-Developer-Community Summit"
+];
+
 
 exports.DataBase = ["database/20230726-what-is-the-transaction"];
-
-exports.Web = [
-  "web/20230821-http-method"
-];
 
 exports.ComputerScience = [];
 
@@ -53,16 +48,13 @@ exports.CyberSecurityTrendAnalysis = [
   "cyber-security-trend-analysis/north_korea_it_workers"
 ]
 
-exports.Rust = [
-  "rust/rust-building-application",
-  "rust/20230517-Rust-Ownership",
-];
-
 exports.References = [
   "references/golang",
   "references/rust",
+  "references/java",
   "references/javascript",
   "references/devops",
+  "references/database",
   "references/security",
   "references/media",
   "references/company-and-personal",
@@ -83,5 +75,3 @@ exports.BooksList = [
 exports.Network = ["networks/20230417-TCP"];
 
 exports.Videos = ["videos/Experience-and-Advice"];
-
-exports.ETC = ["etc/20230731-military-service"];
