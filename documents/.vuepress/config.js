@@ -21,57 +21,13 @@ module.exports = {
         children: CONST.MonthlyILearned,
       },
       {
-        title: "Golang",
-        children: CONST.Golang,
-      },
-      {
-        title: "Golang Algorithm",
-        children: CONST.GolangAlgorithm,
-      },
-      {
-        title: "Java",
-        children: CONST.Java,
-      },
-      {
-        title: "JavaScript",
-        children: CONST.JavaScript,
-      },
-      {
-        title: "Computer Science",
-        children: CONST.ComputerScience,
-      },
-      {
         title: "Cyber Security",
-        children: CONST.CyberSecurity,
+        children: CONST.CyberSecurity,        
       },
       {
-        title: "Cyber Security Trend Analysis",
-        children: CONST.CyberSecurityTrendAnalysis,
-      },
-      {
-        title: "Thesis",
-        children: CONST.Thesis,
-      },
-      {
-        title: "Listening",
-        children: CONST.Listening,
-      },
-      {
-        title: "DataBase",
-        children: CONST.DataBase,
-      },
-      {
-        title: "References",
-        children: CONST.References,
-      },
-      {
-        title: "Errors",
-        children: CONST.Errors,
-      },
-      {
-        title: "Books",
-        children: CONST.BooksList,
-      },
+        title: "Bookmark",
+        children: CONST.Bookmark,
+      }
     ],
     nav: [
       {

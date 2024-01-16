@@ -1,1 +1,0 @@
-# 트랜잭션(transaction)이란?
