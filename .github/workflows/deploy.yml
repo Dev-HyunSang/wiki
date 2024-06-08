@@ -34,9 +34,9 @@ jobs:
       - name: Build with VitePress
         run: yarn docs:build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@master
         with:
-          path: docs/.vitepress/dist
+          path: ./.vitepress/dist
   deploy:
     environment:
       name: github-pages
