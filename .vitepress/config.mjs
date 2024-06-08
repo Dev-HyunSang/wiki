@@ -13,16 +13,28 @@ export default defineConfig({
       { text: "About", link: "/about"},
       { text: 'Blog', link: 'https://hyunsang.dev' }
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-Present HyunSang Park'
+    },
     sidebar: [
       {
         text: 'Monthly I Learned ',
-
         items: [
           { text: "2024년", 
             items: [
               { text: "2024년 6월", link: "/mil/2024-06" }
             ]
           }
+        ]
+      },
+      {
+        text: "Programming Language",
+        collapsed: true,
+        items: [
+          { text: "Golang", link: "/programming-language/golang" },
+          { text: "JavaScript", link: "/programming-language/javascript"},
+          { text: "Python", link: "/programming-language/python"},
         ]
       },
       {
