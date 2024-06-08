@@ -62,13 +62,13 @@ jobs:
 - name: Upload artifact
     uses: actions/upload-pages-artifact@master
     with:
-        path: docs/.vitepress/dist // [!code highlight]
+        path: docs/.vitepress/dist // [!code focus]
 
 # 변경한 코드
 - name: Upload artifact
     uses: actions/upload-pages-artifact@master
     with:
-        path: ./.vitepress/dist // [!code highlight]
+        path: ./.vitepress/dist // [!code focus]
 ```
 
 - 자신이 사용하고 있는 로컬 환경 또는 개발 환경에서 알맞게 빌드하여 동작할 수 있도록 구성하면 된다.
