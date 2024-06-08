@@ -4,9 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HyunSang's Today I Learned",
   description: "A VitePress Site",
+  base: "/TIL/",
+  cleanUrls: true,
   themeConfig: {
-    siteTitle: "HyunSang's TIL",
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "HyunSang's TIL", 
     nav: [
       { text: "About", link: "/about"},
       { text: 'Blog', link: 'https://hyunsang.dev' }
