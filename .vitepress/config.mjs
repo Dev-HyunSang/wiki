@@ -32,7 +32,12 @@ export default defineConfig({
         text: "Programming Language",
         collapsed: true,
         items: [
-          { text: "Golang", link: "/programming-language/golang" },
+          { 
+            text: "Golang", 
+            items: [
+              {text: "How to start learning Golang", link: "/programming-language/golang/how-to-start-learning-golang"}
+            ]
+          },
           { text: "JavaScript", link: "/programming-language/javascript"},
           { text: "Python", link: "/programming-language/python"},
         ]
@@ -45,7 +50,8 @@ export default defineConfig({
           { text: 'Golang', link: '/bookmark/golang' },
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
-          { text: "Cyber Security", link: "/bookmark/cyber-security"}
+          { text: "Cyber Security", link: "/bookmark/cyber-security"},
+          { text: "Etc", link: "/bookmark/etc"}
         ]
       },
       {
