@@ -3,8 +3,16 @@
 layout: doc
 ---
 
-# HyunSang's Today I Learned
+# Today HyunSang Learned
 
-## 저는 이러한 기술에 대해 관심이 있으며, 꾸준히 관심을 가지고 배우고 있습니다.
-    - Programming Language - Golang, JavaScript, Python
-    - Cyber(Infomation) Security - Web Hacking, CTI(Cyber Threat Intelligence)
+<h2> 저는 이러한 기술에 대해 관심이 있으며, <br>
+꾸준히 관심을 가지고 배우고 있습니다.</h2>
+
+- **Programming Language -** Golang, JavaScript, Python
+    - Golang - Back-End · Dev-Ops
+    - JavaScript - Node.js Express · Vue.js
+    - Python - Data Analytics · Data Processing
+- **Cyber Security -** Web Hacking, CTI(Cyber Threat Intelligence), OSINT(Open Source Intelligence)
+    - 주로 동향 분석과 함께 정보 분석에 관심이 많습니다.
+
+최근에는 Python Data Analytics와 CTI(Cyber Threat Intelligence), OSINT(Open Source Intelligence)의 융합하여 사이버 보안에 기여할 수 있는 방법에 대해 고민하고 있습니다.
