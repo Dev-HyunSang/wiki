@@ -1,5 +1,7 @@
 # Deploy VitePress on GitHub Action
 
+[[toc]]
+
 ## GitHub Action 설정
 ```yml
 name: Deploy VitePress site to Pages
@@ -56,6 +58,8 @@ jobs:
 
 - VitePress 문서에 설명되어 있는 [VitePress Guide - Deploy](https://vitepress.vuejs.kr/guide/deploy) 코드를 사용했다.
     - 사용하면서 내 환경과 맞지 않는 코드로 인해서 빌드가 되지 않아서 일부분 수정했다.
+
+## 오류 사항 고치기
 
 ```yml
 # 기존 코드

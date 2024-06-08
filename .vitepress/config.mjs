@@ -6,6 +6,7 @@ export default defineConfig({
   description: "A VitePress Site",
   base: "/TIL/",
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     siteTitle: "Today HyunSang Learned", 
     nav: [
