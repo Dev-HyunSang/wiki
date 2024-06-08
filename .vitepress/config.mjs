@@ -46,6 +46,13 @@ export default defineConfig({
             ]
           }
         ]
+      },
+      {
+        text: "Etc",
+        collapsed: true,
+        items: [
+          { text: "VitePress를 GitHub Action을 이용해서 배포해보자!", link:"/etc/vitepress-github-action"}
+        ]
       }
     ],
     socialLinks: [
