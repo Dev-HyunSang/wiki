@@ -35,7 +35,8 @@ export default defineConfig({
           { 
             text: "Golang", 
             items: [
-              {text: "How to start learning Golang", link: "/programming-language/golang/how-to-start-learning-golang"}
+              { text: "How to start learning Golang", link: "/programming-language/golang/how-to-start-learning-golang" },
+              { text: "Golang Generics", link: "/programming-language/golang/golang-generics"}
             ]
           },
           { text: "JavaScript", link: "/programming-language/javascript"},
