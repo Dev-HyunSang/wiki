@@ -129,4 +129,4 @@ func main() {
 - [Tutorial: Getting started with generics](https://go.dev/doc/tutorial/generics)
 - [The Go Programming Language Specification - Type Parameters](https://go.dev/ref/spec#Type_parameters)
 - [The Go Programming Language Specification - Numeric types](https://go.dev/ref/spec#Numeric_types)
-- [`constraints` - Go Package]
+- [`constraints` - Go Package](https://pkg.go.dev/golang.org/x/exp/constraints)
