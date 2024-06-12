@@ -62,7 +62,7 @@ export default defineConfig({
           { 
             text: "Cyber Security",
             items: [
-              { text: "", link: "/papers/cyber-security/"}
+              { text: "사이버 공격 확산 방지 및 신속한 대응을 위한 사이버 위협 인텔리전스 분석 기술", link: "/papers/cyber-security/cti-analysis"}
             ]
           }
         ]
