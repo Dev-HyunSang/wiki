@@ -52,6 +52,7 @@ export default defineConfig({
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
           { text: "Cyber Security", link: "/bookmark/cyber-security"},
+          { text: "Trend Cyber Security", link: "/bookmark/trend-cyber-security"},
           { text: "Etc", link: "/bookmark/etc"}
         ]
       },
