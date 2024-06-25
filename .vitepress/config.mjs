@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Today HyunSang Learned",
   description: "A VitePress Site",
-  base: "/TIL/",
+  base: "/",
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
