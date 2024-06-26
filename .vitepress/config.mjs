@@ -65,6 +65,12 @@ export default defineConfig({
             items: [
               { text: "사이버 공격 확산 방지 및 신속한 대응을 위한 사이버 위협 인텔리전스 분석 기술", link: "/papers/cyber-security/cti-analysis"}
             ]
+          },
+          {
+            text: "North Korea",
+            items: [
+              { text: "[INSS 전략보고] 러북 정상회담 결과 평가 및 對 한반도 파급 영향", link: "/papers/north-korea/north-korea-and-russia"}
+            ]
           }
         ]
       },
