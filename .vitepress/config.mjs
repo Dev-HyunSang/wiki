@@ -69,7 +69,7 @@ export default defineConfig({
           {
             text: "North Korea",
             items: [
-              { text: "[INSS 전략보고] 러북 정상회담 결과 평가 및 對 한반도 파급 영향", link: "/papers/north-korea/north-korea-and-russia"}
+              { text: "[INSS 전략보고] 러북 정상회담 결과 평가 및 對 한반도 파급 영향", link: "/papers/north-korea/north-korea-and-russia-2024"}
             ]
           }
         ]
