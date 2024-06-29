@@ -33,7 +33,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { 
-            text: "Golang", 
+            text: "Golang",
             items: [
               { text: "How to start learning Golang", link: "/programming-language/golang/how-to-start-learning-golang" },
               { text: "Golang Generics", link: "/programming-language/golang/golang-generics"}
@@ -53,6 +53,7 @@ export default defineConfig({
           { text: 'Python', link: '/bookmark/python' },
           { text: "Cyber Security", link: "/bookmark/cyber-security"},
           { text: "Trend Cyber Security", link: "/bookmark/trend-cyber-security"},
+          { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence"},
           { text: "Etc", link: "/bookmark/etc"}
         ]
       },
