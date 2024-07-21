@@ -44,6 +44,18 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Cyber Security',
+        collapsed: true,
+        items: [
+          {
+            text: "Web Hacking",
+            items: [
+              { text: "SQL Injection", link: "/cyber-security/web-hacking/sql-injection" },
+            ]
+          }
+        ]
+      },
+      {
         text: 'Bookmark',
         collapsed: true,
         // 더 손쉽게 링크를 추가하는 방법에 대해서 생각해 보기.
