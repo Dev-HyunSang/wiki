@@ -50,6 +50,7 @@ export default defineConfig({
           {
             text: "Web Hacking",
             items: [
+              { text: "CVE Research", link: "cyber-security/web-hacking/CVE-Research"},
               { text: "SQL Injection", link: "/cyber-security/web-hacking/sql-injection" },
             ]
           }
@@ -63,8 +64,7 @@ export default defineConfig({
           { text: 'Golang', link: '/bookmark/golang' },
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
-          { text: "Cyber Security", link: "/bookmark/cyber-security"},
-          { text: "Trend Cyber Security", link: "/bookmark/trend-cyber-security"},
+          { text: "Web Hacking", link: "/bookmark/web-hacking"},
           { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence"},
           { text: "Etc", link: "/bookmark/etc"}
         ]
