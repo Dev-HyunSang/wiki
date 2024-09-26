@@ -64,6 +64,7 @@ export default defineConfig({
           { text: 'Golang', link: '/bookmark/golang' },
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
+          { text: 'CTI(Cyber Threat Intelligence)', link:"/bookmark/cti" },
           { text: "Web Hacking", link: "/bookmark/web-hacking"},
           { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence"},
           { text: "Etc", link: "/bookmark/etc"}
