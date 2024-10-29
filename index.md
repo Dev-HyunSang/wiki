@@ -6,13 +6,18 @@ footer: true
 ---
 
 # {{ $frontmatter.title }}
-- 꾸준함을 통해 한층한층 성장하는 내 자신을 위해 노력하고 공부합니다. 
+- 꾸준함을 통해 한층한층 성장하는 "내 자신"을 위해 노력하고 공부합니다. 
+- "기억"이라는 휘발성 메모리는 비휘발성 메모리로 만들기 위해 기록하고 노력합니다.
 - 학부에서 정보보호를 전공하고 있습니다. 주로 전공인 정보보호와 다양한 컴퓨터 공학 기술들을 융합하여 공부하고자 노력합니다.
-- 최근에는 Python Data Analytics과 함께 CTI(Cyber Threat Intelligence), OSINT(Open Source Intelligence)에 대해서 융합해서 다양한 프로젝트를 하고자 노력하고 있습니다.
 
 ## {{ $frontmatter.description }}
 - **Programming Lanage -** Golang, JavaScript, Python
     - Golang - Back-End · Dev-Ops
     - JavaScript - Node.js Express · Vue.js
-    - Python - Data Analytics · Data Processing
-- **Cyber Security -** Web Hacking, CTI(Cyber Threat Intelligence), OSINT(Open Source Intelligence)
+    - Python - Data Analytics · Data Processing · Back-End
+- **Cyber Security -** Web Hacking, North Korea Cyber Intelligence
+
+## Motto 
+> ***여러 변덕스러운 우연이, 그리고 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.***  
+> ***취업 준비, 결혼 준비, 육아 교육 승진 은퇴 노후 준비를 거쳐 어디 병원 그럴듯한 일인실에서 사망하기 위한 준비에 산만해지지 않기를 바랍니다. 무례와 혐오와 경쟁과 분열과 비교와 나태와 허무의 달콤함에 길들지 않길, 의미와 무의미의 온갖 폭력을 이겨내고 하루하루를 온전히 경험하길, 그 끝에서 오래 기다리고 있는 낯선 나를 아무 아쉬움 없이 맞이하게 되길 바랍니다.***  
+> -수학자 허준이, 서울대학교 2022 졸업식 축사 중.

@@ -39,8 +39,12 @@ export default defineConfig({
               { text: "Golang Generics", link: "/programming-language/golang/golang-generics"}
             ]
           },
-          { text: "JavaScript", link: "/programming-language/javascript"},
-          { text: "Python", link: "/programming-language/python"},
+          {
+            text: "Rust",
+            items: [
+              { text: ""}
+            ]
+          }
         ]
       },
       {
@@ -50,10 +54,23 @@ export default defineConfig({
           {
             text: "Web Hacking",
             items: [
-              { text: "CVE Research", link: "cyber-security/web-hacking/CVE-Research"},
+              { text: "CVE Research", link: "/cyber-security/web-hacking/CVE-Research"},
               { text: "SQL Injection", link: "/cyber-security/web-hacking/sql-injection" },
             ]
-          }
+          },
+          {
+            text: "CTI",
+            items: [
+              { text: "What is MITRE ATT&CK?", link: "/cyber-security/cti/What-is-MITRE ATT&CK"},
+            ]
+          },
+          {
+            text: "DPRK",
+            items: [
+              { text: "Cyber Attck Trend", link: "cyber-security/dprk/cyber-attck-trend"},
+              { text:"Report", link: "cyber-security/dprk/report"}
+            ]
+          },
         ]
       },
       {
@@ -62,6 +79,7 @@ export default defineConfig({
         // 더 손쉽게 링크를 추가하는 방법에 대해서 생각해 보기.
         items: [
           { text: 'Golang', link: '/bookmark/golang' },
+          { text: "Rust", link: "/bookmark/rust"},
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
           { text: 'CTI(Cyber Threat Intelligence)', link:"/bookmark/cti" },
