@@ -8,3 +8,10 @@
 ## Work and Experience
 - [Why I Quit Netflix](https://youtu.be/slL7AW9q8Fc?si=GskBv7SDSdp8gaXd)
 - [What I Do At Netflix](https://youtu.be/AVnJB7xN-MU?si=oPwDig4IMomhxWoC)
+
+## 인생과 삶...?
+- [김형석 교수 - 나는 어떻게 살아야 하는가](https://youtu.be/JXd4xlL0ER0?si=xTtMLW0nT77hprmI)
+
+## 자기개발
+- [꾸준함을 키우는 3가지 방법](https://brunch.co.kr/@lyva/96)
+- [기록하는 습관이 당신의 삶을 바꾼다](https://viator2912.tistory.com/55)

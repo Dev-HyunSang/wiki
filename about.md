@@ -8,5 +8,5 @@
     - 중등기초, 중등심화, 고등심화(2회) 수료
 
 ### Work
-- Infomation Security MOS @ROK Army HQ (2024.03.18 ~ 2025.09.17)
+- Infomation Security MOS @ROK Army (2024.03.18 ~ 2025.09.17)
 - Software Engineer @TeamGRIT, Inc. (2021.08.09 ~ 2023.08.17)

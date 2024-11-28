@@ -1,8 +1,6 @@
 # Bookmark/Cyber Security
 
 ## Web Hacking
-- 8월 3일 전까지 다 읽어보고 공부하기...! CCE 본선 가고 싶어요...ㅠ
-    - 읽고 정리하고 실습하는 방법으로 공부.
 
 ### Study Tools
 - [DVWA - Damn Vulnerable Web Application](https://github.com/digininja/DVWA)

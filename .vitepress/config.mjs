@@ -1,14 +1,17 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+
+const RUST_PATH = "/programming-language/rust/";
+
 export default defineConfig({
-  title: "Today HyunSang Learned",
-  description: "A VitePress Site",
+  title: "HyunSang's Wiki",
+  description: "HyunSang's Wiki",
   base: "/",
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    siteTitle: "Today HyunSang Learned", 
+    siteTitle: "HyunSang's Wiki", 
     nav: [
       { text: "About", link: "/about"},
       { text: 'Blog', link: 'https://hyunsang.dev' }
@@ -19,12 +22,11 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'Monthly I Learned ',
+        text: 'Daily Record',
         items: [
-          { text: "2024년", 
-            items: [
-              { text: "2024년 6월", link: "/mil/2024-06" }
-            ]
+          { 
+            text: "2025년의 기록", 
+            link: "/daily-record/2025"
           }
         ]
       },
@@ -42,7 +44,19 @@ export default defineConfig({
           {
             text: "Rust",
             items: [
-              { text: ""}
+              {
+                text: "Rust에서 인터프리터 작성하기:가이드",
+                items: [
+                  { text: "1. 소개", link: "/programming-language/rust/interpreters/interpreter-in-rust-1" },
+                  {
+                    text: "2. 할당자(Allocators)",
+                    link: "/programming-language/rust/interpreters/alignment/interpreters-in-rust-2",
+                    items: [
+                      { text: "2.1 정렬(Alignment)", link: "/programming-language/rust/interpreters/alignment/interpreters-in-rust-2-1"}
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -83,9 +97,10 @@ export default defineConfig({
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
           { text: 'CTI(Cyber Threat Intelligence)', link:"/bookmark/cti" },
-          { text: "Web Hacking", link: "/bookmark/web-hacking"},
-          { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence"},
-          { text: "Etc", link: "/bookmark/etc"}
+          { text: "Web Hacking", link: "/bookmark/web-hacking" },
+          { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence" },
+          { text: "Law", link: "/bookmark/law" },
+          { text: "Etc", link: "/bookmark/etc" }
         ]
       },
       {

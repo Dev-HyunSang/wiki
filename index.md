@@ -1,7 +1,6 @@
 ---
 layout: doc
-title: Today HyunSang Learned
-description: 저는 이러한 분야에 관심이 많습니다. 
+title: HyunSang's Wiki
 footer: true
 ---
 
@@ -10,12 +9,9 @@ footer: true
 - "기억"이라는 휘발성 메모리는 비휘발성 메모리로 만들기 위해 기록하고 노력합니다.
 - 학부에서 정보보호를 전공하고 있습니다. 주로 전공인 정보보호와 다양한 컴퓨터 공학 기술들을 융합하여 공부하고자 노력합니다.
 
-## {{ $frontmatter.description }}
-- **Programming Lanage -** Golang, JavaScript, Python
-    - Golang - Back-End · Dev-Ops
-    - JavaScript - Node.js Express · Vue.js
-    - Python - Data Analytics · Data Processing · Back-End
-- **Cyber Security -** Web Hacking, North Korea Cyber Intelligence
+## Keyword
+- Golang(1st), Python(2st), JavaScript(3st), Rust(Study)
+- Web Hacking, DPRK (Cyber) Intelligence
 
 ## Motto 
 > ***여러 변덕스러운 우연이, 그리고 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.***  
