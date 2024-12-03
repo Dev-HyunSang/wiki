@@ -24,6 +24,10 @@ export default defineConfig({
       {
         text: 'Daily Record',
         items: [
+          {
+            text: "2024년의 기록",
+            link: "/daily-record/2024"
+          },
           { 
             text: "2025년의 기록", 
             link: "/daily-record/2025"

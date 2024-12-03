@@ -12,6 +12,7 @@ footer: true
 ## Keyword
 - Golang(1st), Python(2st), JavaScript(3st), Rust(Study)
 - Web Hacking, DPRK (Cyber) Intelligence
+- Law(형법, 개인정보보호법 및 데이터3법, 전자상거래법 등)
 
 ## Motto 
 > ***여러 변덕스러운 우연이, 그리고 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.***  
