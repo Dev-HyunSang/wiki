@@ -92,6 +92,13 @@ export default defineConfig({
         ]
       },
       {
+        text: "법학",
+        collapsed: true,
+        items: [
+          { text: "형사법", link: "/law/criminal-law" }
+        ]
+      },
+      {
         text: 'Bookmark',
         collapsed: true,
         // 더 손쉽게 링크를 추가하는 방법에 대해서 생각해 보기.
