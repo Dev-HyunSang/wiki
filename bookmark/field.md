@@ -10,3 +10,8 @@
 
 ## 데이터 축적
 - [빅데이터 축적의 힘](https://brunch.co.kr/@kinghm71/30)
+
+## 장애 회고
+- [인프런 - 2022년 1월 100% 할인 이벤트 장애 부검](https://tech.inflab.com/202201-event-postmortem/)
+
+## 개발자 개인 회고

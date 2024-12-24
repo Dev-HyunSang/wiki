@@ -95,7 +95,10 @@ export default defineConfig({
         text: "법학",
         collapsed: true,
         items: [
-          { text: "형사법", link: "/law/criminal-law" }
+          { text: "헌법", link: "/law/constitution-of-republic-of-korea" },
+          { text: "형사법", link: "/law/criminal-law" },
+          { text: "민사법", link: "/law/civil-act"},
+          { text: "판례", link: "/law/judicial-precedent" }
         ]
       },
       {
@@ -107,10 +110,11 @@ export default defineConfig({
           { text: "Rust", link: "/bookmark/rust"},
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
+          { text: 'Data', link: '/bookmark/data'},
+          { text: 'Back-End', link: "/bookmark/back-end"},
           { text: 'CTI(Cyber Threat Intelligence)', link:"/bookmark/cti" },
           { text: "Web Hacking", link: "/bookmark/web-hacking" },
           { text: "AI, Artificial Intelligence", link: "/bookmark/artificial-intelligence" },
-          { text: "Law", link: "/bookmark/law" },
           { text: "Etc", link: "/bookmark/etc" }
         ]
       },
