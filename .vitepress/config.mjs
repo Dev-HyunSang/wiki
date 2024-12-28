@@ -137,6 +137,13 @@ export default defineConfig({
         ]
       },
       {
+        text: "Notes",
+        collapsed: true,
+        items: [
+          { text: "20241228 - 공정성이란 무엇인가", link: "notes/20241228_공정성이란_무엇인가"}
+        ]
+      },
+      {
         text: "Etc",
         collapsed: true,
         items: [
