@@ -83,16 +83,13 @@ export default defineConfig({
             ]
           },
           {
-            text: "DPRK",
-            items: [
-              { text: "Cyber Attck Trend", link: "cyber-security/dprk/cyber-attck-trend"},
-              { text:"Report", link: "cyber-security/dprk/report"}
-            ]
-          },
+            text: "DDos(Dos)",
+            link: "/cyber-security/ddos"
+          }
         ]
       },
       {
-        text: "법학",
+        text: "Law",
         collapsed: true,
         items: [
           { text: "헌법", link: "/law/constitution-of-republic-of-korea" },
@@ -119,37 +116,13 @@ export default defineConfig({
         ]
       },
       {
-        text: "Papers",
-        collapsed: true,
-        items: [
-          { 
-            text: "Cyber Security",
-            items: [
-              { text: "사이버 공격 확산 방지 및 신속한 대응을 위한 사이버 위협 인텔리전스 분석 기술", link: "/papers/cyber-security/cti-analysis"}
-            ]
-          },
-          {
-            text: "North Korea",
-            items: [
-              { text: "[INSS 전략보고] 러북 정상회담 결과 평가 및 對 한반도 파급 영향", link: "/papers/north-korea/north-korea-and-russia-2024"}
-            ]
-          }
-        ]
-      },
-      {
         text: "Notes",
         collapsed: true,
         items: [
+          { text: "VitePress를 GitHub Action을 이용해서 배포해보자!", link:"notes/20240608_vitepress_github_action" },
           { text: "20241228 - 공정성이란 무엇인가", link: "notes/20241228_공정성이란_무엇인가"}
         ]
       },
-      {
-        text: "Etc",
-        collapsed: true,
-        items: [
-          { text: "VitePress를 GitHub Action을 이용해서 배포해보자!", link:"/etc/vitepress-github-action"}
-        ]
-      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Dev-HyunSang' },
