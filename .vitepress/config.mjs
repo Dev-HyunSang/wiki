@@ -107,6 +107,7 @@ export default defineConfig({
           { text: "Rust", link: "/bookmark/rust"},
           { text: 'JavaScript', link: '/bookmark/javascript' },
           { text: 'Python', link: '/bookmark/python' },
+          { text: 'DataBase', link: '/bookmark/database'},
           { text: 'Data', link: '/bookmark/data'},
           { text: 'Back-End', link: "/bookmark/back-end"},
           { text: 'CTI(Cyber Threat Intelligence)', link:"/bookmark/cti" },
