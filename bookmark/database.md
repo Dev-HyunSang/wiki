@@ -10,3 +10,6 @@
 ### 서적
 - [김기창의 데이터 모델링 강의](https://www.yes24.com/product/goods/115991108)
 - [혼자 공부하는 SQL](https://www.yes24.com/Product/Goods/104661489)
+
+## 자격증
+- [DB 자격증 총정리 - DAP/DAsP, SQLP/SQLD, ADP/ADsP, OCA/OCP/OCM](https://bangu4.tistory.com/20)
