@@ -121,7 +121,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "VitePress를 GitHub Action을 이용해서 배포해보자!", link:"notes/20240608_vitepress_github_action" },
-          { text: "20241228 - 공정성이란 무엇인가", link: "notes/20241228_공정성이란_무엇인가"}
+          { text: "20241228 - 공정성이란 무엇인가", link: "notes/20241228_공정성이란_무엇인가"},
+          { text: "모르는 단어", link: "notes/20250127_word"}
         ]
       },
     ],
