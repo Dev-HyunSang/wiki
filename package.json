@@ -1,4 +1,10 @@
 {
+  "author": {
+    "name": "HyunSang Park",
+    "email": "me@hyunsang.dev",
+    "url": "https://hyunsang.dev"
+  },
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.2.3"
   },
