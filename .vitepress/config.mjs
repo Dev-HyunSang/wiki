@@ -2,14 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 
-const RUST_PATH = "/programming-language/rust/";
-
 export default defineConfig({
   title: "HyunSang's Wiki",
   description: "HyunSang's Wiki",
   base: "/",
   cleanUrls: true,
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     siteTitle: "HyunSang's Wiki", 
     nav: [
