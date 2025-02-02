@@ -15,3 +15,6 @@
 ## 자기개발
 - [꾸준함을 키우는 3가지 방법](https://brunch.co.kr/@lyva/96)
 - [기록하는 습관이 당신의 삶을 바꾼다](https://viator2912.tistory.com/55)
+
+## CLI 관련
+- [명령줄 인터페이스 가이드라인](https://clig.kr/)
