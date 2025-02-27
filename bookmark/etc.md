@@ -11,6 +11,7 @@
 
 ## 인생과 삶...?
 - [김형석 교수 - 나는 어떻게 살아야 하는가](https://youtu.be/JXd4xlL0ER0?si=xTtMLW0nT77hprmI)
+- [삶이라는 게임에서 승리하는 법](https://youtu.be/YkNReIcwlaI?si=yTtb6AoFh_NN4uWD)
 
 ## 자기개발
 - [꾸준함을 키우는 3가지 방법](https://brunch.co.kr/@lyva/96)
