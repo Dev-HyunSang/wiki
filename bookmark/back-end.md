@@ -5,6 +5,9 @@
 - [인프런 - 우리 팀에 맞는 VPN 찾기](https://tech.inflab.com/20241031-vpn-history/)
 - [인프런 - 신입 DevOps 엔지니어의 AI/ML 기반 자동화된 스팸 필터링 도입 경험기](https://tech.inflab.com/20241205-spamfilter/)
 
+### SRE
+- [내가 만난 멋진 SRE](https://docs.google.com/presentation/d/11hP7K2tJIEEhajil_OsZ_S5f8J8P9vBYOhBWzP0S9hw/edit?usp=drivesdk)
+
 ## DataBase
 
 ### Vector
