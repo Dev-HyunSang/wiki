@@ -1,5 +1,8 @@
 # Back-End
 
+## CDN(Content Delivery Network)
+- [CDN DTO 1,600GB → 3GB로 비용 절감하기](https://sienna1022.tistory.com/entry/CDN-DTO-1800GB-%E2%86%92-25GB%EB%A1%9C-%EB%B9%84%EC%9A%A9-%EC%A0%88%EA%B0%90%ED%95%98%EA%B8%B0)
+
 ## Dev-Ops
 
 - [인프런 - 우리 팀에 맞는 VPN 찾기](https://tech.inflab.com/20241031-vpn-history/)
