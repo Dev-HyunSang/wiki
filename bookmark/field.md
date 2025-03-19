@@ -17,6 +17,9 @@
 
 - [인프런 - 2022년 1월 100% 할인 이벤트 장애 부검](https://tech.inflab.com/202201-event-postmortem/)
 
+## 커리어
+- [Career advice in 2025.](https://lethain.com/career-advice-2025/)
+
 ## 개발자 개인 회고
 
 - [2025년 미국 뉴욕 소프트웨어 엔지니어 취업기](https://www.nyprogrammer.com/p/job-hunting-2025)
