@@ -28,5 +28,7 @@
 ## CORS(Cross-site Origin Sharing)
 - [취약한 CORS 구성](https://www.bugbountyclub.com/pentestgym/view/60)
 
-## Research CVE
-- [Grafana path traversal](https://github.com/grafana/grafana/security/advisories/GHSA-8pjx-jj86-j47p)
+## Auth 관련
+
+### JWT(JSON Web Token)
+- Tools
